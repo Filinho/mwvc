@@ -18,7 +18,7 @@ class Graph {
             adjList[i] = set<int>();
         }
         int edgesAdded = 0;
-        srand(time(0)); 
+        
 
         while(edgesAdded< e){
             int u = rand() % vertices;
@@ -45,6 +45,7 @@ class Graph {
 
 
 int main(int argc, char * argv[]){
-    Graph  i = Graph(atoi(argv[1]),atoi(argv[2]));
-    i.printGraph();
+    srand(atoi(argv[3])); 
+        Graph j = Graph(atoi(argv[1]),atoi(argv[2]));
+        j.printGraph();
 }
