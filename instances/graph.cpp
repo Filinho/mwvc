@@ -34,13 +34,13 @@ class Graph {
  void printGraph() {
         cout  << vertices << endl;
         for (int i = 0; i < vertices; i++) {
-            cout << i << " ";
+            cout << adjList[i].size() << " ";
             for (int neighbor : adjList[i]) {
                 cout << neighbor << " ";
             }
             cout << endl;
         }
-    };
+    }
 };
 
 
