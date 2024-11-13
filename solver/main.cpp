@@ -1,4 +1,3 @@
-#include "Instance.hpp"
 #include "State.hpp"
 
 
@@ -6,7 +5,10 @@ int main(int argc, char* argv[]) {
 
 	Graph g;
 
-	g.parse(argv[1]);
+	instance.parse(argv[1]);
 
-	g.printGraph();
+	instance.printGraph();
+	State s;
+	s.selected = {true, true, false, false, false};
+	cout << s.verify();
 }

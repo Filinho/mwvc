@@ -10,11 +10,9 @@
 using namespace std;
 
 class Graph {
-
+public:
   int nVertex;
   vector<set<int>> adjList;
-
-public:
   
   void parse(const string& filePath) {
     ifstream streamFile;
@@ -43,4 +41,7 @@ public:
       cout << endl;
     }
   }
+
 };
+
+Graph instance;
