@@ -12,23 +12,27 @@ using namespace std;
 class Graph {
 public:
   int nVertex;
+  int nEdges;
   vector<set<int>> adjList;
   
   void parse(const string& filePath) {
+    nEdges = 0;
     ifstream streamFile;
     streamFile.open(filePath);
     streamFile >> nVertex;
     adjList.resize(nVertex);
-    int nEdges;
+    int auxNEdges;
     int auxVertex;
     for (unsigned i = 0; i < nVertex; ++i) {
       adjList[i] = set<int>();
-      streamFile >> nEdges;
-      for (unsigned j = 0; j < nEdges; ++j) {
+      streamFile >> auxNEdges;
+      nEdges += auxNEdges;
+      for (unsigned j = 0; j < auxNEdges; ++j) {
         streamFile >> auxVertex;
         adjList[i].insert(auxVertex);
       }
     }
+    nEdges /= 2;
   }
 
   void printGraph() {
@@ -41,7 +45,6 @@ public:
       cout << endl;
     }
   }
-
 };
 
 Graph instance;

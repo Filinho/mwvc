@@ -1,4 +1,4 @@
-#include "State.hpp"
+#include "solver.hpp"
 
 
 int main(int argc, char* argv[]) {
@@ -9,6 +9,9 @@ int main(int argc, char* argv[]) {
 
 	instance.printGraph();
 	State s;
-	s.selected = {true, true, false, false, false};
-	cout << s.verify();
+	Solver solver;
+	cout << solver.randomEdge(s) << endl;
+
+	cout << s.verify() <<endl;
+	s.toString();
 }
