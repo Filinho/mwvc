@@ -50,7 +50,6 @@ class Solver{
         return count;
     }
 
-    
     int ratioEdge(State & solution){
         vector<int> order;
         vector<set<int>> auxAdjList = instance.adjList;
@@ -60,7 +59,7 @@ class Solver{
         for(int i = 1 ; i< instance.nVertex;i++){
             
             int j = i -1;
-            while( j >=0  &&  instance.weight[i]/instance.adjList[i].size() <  instance.weight[order[j]]/instance.adjList[order[j]].size()){
+            while( j >=0  && (float) instance.weight[i]/instance.adjList[i].size() < (float)  instance.weight[order[j]]/instance.adjList[order[j]].size()){
                 order[j+1] = order[j];
                 j--;
             }
@@ -87,5 +86,6 @@ class Solver{
         }
         return count;
     }
+
 };
 
