@@ -8,9 +8,8 @@ int main(int argc, char* argv[]) {
 	instance.parse(argv[1]);
 	State s;
 	Solver solver;
-	cout << solver.ratioEdge(s) << endl;
+	cout << "ratio solution: " << solver.ratioEdge(s) << endl;	
 	State s2;
-	cout << solver.randomEdge(s2) <<endl;
-	s.toString();
-	s2.toString();
+	cout << "random solution: "<< solver.randomEdge(s2) <<endl;
+	cout<< s.verify() << s.verify();
 }
