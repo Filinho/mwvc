@@ -13,6 +13,7 @@ class Graph {
 public:
   int nVertex;
   int nEdges;
+  vector<int> weight;
   vector<set<int>> adjList;
   
   void parse(const string& filePath) {
@@ -20,12 +21,16 @@ public:
     ifstream streamFile;
     streamFile.open(filePath);
     streamFile >> nVertex;
+    weight.resize(nVertex);
     adjList.resize(nVertex);
     int auxNEdges;
     int auxVertex;
     for (unsigned i = 0; i < nVertex; ++i) {
       adjList[i] = set<int>();
+      
       streamFile >> auxNEdges;
+      streamFile >>weight[i];
+
       nEdges += auxNEdges;
       for (unsigned j = 0; j < auxNEdges; ++j) {
         streamFile >> auxVertex;
@@ -38,7 +43,7 @@ public:
   void printGraph() {
     cout << nVertex << endl;
     for (int i = 0; i < nVertex; i++) {
-      cout << adjList[i].size() << " ";
+      cout << adjList[i].size() << " " << weight[i]  << " " ;
       for (int neighbor : adjList[i]) {
         cout << neighbor << " ";
       }

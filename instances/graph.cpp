@@ -34,9 +34,9 @@ class Graph {
  void printGraph() {
         cout  << vertices << endl;
         for (int i = 0; i < vertices; i++) {
-            cout << adjList[i].size() << " ";
+            cout << adjList[i].size() << " " << rand() %100 << " ";
             for (int neighbor : adjList[i]) {
-                cout << neighbor << " ";
+                cout << neighbor  << " ";
             }
             cout << endl;
         }
