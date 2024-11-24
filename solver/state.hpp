@@ -1,12 +1,16 @@
+#pragma once
+
 #include "Instance.hpp"
 
 class State{
   
 
 public:
-    vector<bool> selected;  
+    vector<bool> selected; 
+    unsigned timeSpent;
     State(){
         selected.resize(instance.nVertex);
+        timeSpent = 0;
     }
 
     bool verify(){
