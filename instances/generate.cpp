@@ -50,14 +50,14 @@ int main(int argc, char* argv[]) {
 	else {
 		// type 2: select a random wheight int the uniform distribution from the interval [1, deg[v]^2]
 		for (unsigned i = 0; i < n; ++i) {
-			unsigned top = (deg[i + 1] * deg[i + 1]);
+			unsigned top = (deg[i + 1] * deg[i + 1]) == 0? n : (deg[i + 1] * deg[i + 1]);
 			uniform_int_distribution<int> uniformDistWheights(1, top);
 			w.push_back(uniformDistWheights(rng));
 		}
 	}
 
 	/* prints the graph in the format:
-	* n m								 : where n and m are the number of vertex and edges respectively
+	* m n								 : where n and m are the number of vertex and edges respectively
 	* w1 w2 w3 w4 ... wn : where wi is the wheight f vertex i
 	* e1
 	* e2
@@ -69,7 +69,7 @@ int main(int argc, char* argv[]) {
 	* em								 : where ei is edge i of graph G and ei is represented for two numbers i and j wich represents two vertex of graph G
 	*/
 
-	cout << n << " " << m << endl;
+	cout << m << " " << n << endl;
 
 	for (unsigned i = 0; i < n; ++i) {
 		cout << w[i] << " ";
