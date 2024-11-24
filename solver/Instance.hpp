@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <fstream>
+#include <cassert>
 
 using namespace std;
 
@@ -17,33 +18,40 @@ public:
   vector<set<int>> adjList;
   
   void parse(const string& filePath) {
-    nEdges = 0;
     ifstream streamFile;
+    unsigned auxWeight;
+    unsigned auxV1;
+    unsigned auxV2;
+
     streamFile.open(filePath);
+
+    streamFile >> nEdges;
     streamFile >> nVertex;
+    
     weight.resize(nVertex);
     adjList.resize(nVertex);
-    int auxNEdges;
-    int auxVertex;
-    for (unsigned i = 0; i < nVertex; ++i) {
-      adjList[i] = set<int>();
-      
-      streamFile >> auxNEdges;
-      streamFile >>weight[i];
 
-      nEdges += auxNEdges;
-      for (unsigned j = 0; j < auxNEdges; ++j) {
-        streamFile >> auxVertex;
-        adjList[i].insert(auxVertex);
-      }
+    for (unsigned i = 0; i < nVertex; ++i) {
+      streamFile >> auxWeight;
+      weight[i] = auxWeight;
+      adjList[i] = set<int>();
     }
-    nEdges /= 2;
+
+    for (unsigned i = 0; i < nEdges; ++i) {
+      
+      streamFile >> auxV1;
+      streamFile >> auxV2;
+      assert(adjList[auxV1 - 1].find(auxV2 - 1) == adjList[auxV1 - 1].end());
+      assert(adjList[auxV2 - 1].find(auxV1 - 1) == adjList[auxV2 - 1].end());
+      adjList[auxV1-1].insert(auxV2-1);
+      adjList[auxV2-1].insert(auxV1-1);
+    }
   }
 
   void printGraph() {
     cout << nVertex << endl;
     for (int i = 0; i < nVertex; i++) {
-      cout << adjList[i].size() << " " << weight[i]  << " " ;
+      cout << weight[i]  << " " ;
       for (int neighbor : adjList[i]) {
         cout << neighbor << " ";
       }
