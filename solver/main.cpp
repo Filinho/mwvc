@@ -11,17 +11,18 @@ int main(int argc, char* argv[]) {
 	Solver solver;
 	 int rn = solver.randomEdge(s1);
 	 int ratio = solver.ratioEdge(s2);
+	 cout << "Instance" << endl;
 	cout << argv[1] << endl;
 	 if (!s1.verify()) {
 	 	cout << "rnInvalid ";
 	 }
 	 else {
-	 	cout << rn << " " << s1.timeSpent << " ";
+	 	cout << "RandomEdge: " << rn << " Time(ms): " << s1.timeSpent << endl;
 	 }
 	 if (!s2.verify()) {
 	 	cout << "ratioInvalid" << endl;
 	 }
 	 else {
-	 	cout << ratio << " " << s2.timeSpent << endl;
+	 	cout << "RatioEdge: " << ratio << " Time(ms): " << s2.timeSpent << endl;
 	 }
 }
