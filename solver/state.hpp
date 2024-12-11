@@ -30,12 +30,19 @@ public:
         }
         return true;
     }
+    int calcCost(){
+        int cost = 0;
+        for(int i = 0 ; i<selected.size();i++){
+            if(selected[i]) cost+= instance.weight[i];
+        } 
+        return cost;
+    }
 
     void toString(){
         for(int i = 0 ; i<selected.size();i++){
             if(selected[i]) cout << i << " ";
         } 
-        cout << endl;
+        cout << endl << calcCost() << endl;
     }
 };
 

@@ -132,8 +132,7 @@ class Solver{
 
     // Prints all combinations of size k of numbers
     // from 1 to n.
-    vector<vector<int> > makeCombi(int n, int k)
-    {
+    vector<vector<int> > makeCombi(int n, int k){
       vector<vector<int> > ans;
       vector<int> tmp;
       makeCombiUtil(ans, tmp, n, 1, k);
@@ -170,5 +169,54 @@ class Solver{
 
       return cost;
     }
+
+    int swapAdjacentNeighboorhood(State & solution, State & newSolution){
+      newSolution = solution;
+      int max = 0;
+      int count = 0;
+      for(int i = 1; i < instance.nVertex;i++){
+        
+        if(solution.selected[i] ){
+          count ++;
+          if(instance.weight[i] > instance.weight[max] ) max = i;
+        }
+      }
+      pcg32 rng(3);
+      int v1 = rng(count);
+      count = 0;
+      int random;
+      for( random = 0; random < instance.nVertex;random++){
+         if(count == v1 && solution.selected[random])break;
+         else if(solution.selected[random] ) count ++;
+      }
+
+      newSolution.selected[max] = 0;
+      newSolution.selected[random] = 0;
+
+      vector<int> adj;
+
+      for(int a : instance.adjList[max]){
+        if (a != random) adj.push_back(a);
+      }
+
+      for(int a : instance.adjList[random]){
+        if(a != max)adj.push_back(a);
+      }
+      
+      for(int i  = 0; i < adj.size();i++){
+        newSolution.selected[adj[i]] = 1;
+        if(newSolution.verify()){
+          return newSolution.calcCost();
+          break;
+        } 
+      }
+      return -1;
+    }
+    
+    int localSearch(State & solution){
+        return 0;
+    }
+
+
 };
 
