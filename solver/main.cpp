@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
 	 	cout << "RatioEdge: " << ratio << " Time(ms): " << s2.timeSpent << endl;
 	 }
 
-	 cout << solver.swapAdjacentNeighboorhood(s2,s1);
+	 cout << solver.swapAdjacentNeighboorhood(s2,s1,2);
 	
 	 s2.toString();
 	 s1.toString();
