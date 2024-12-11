@@ -39,9 +39,11 @@ public:
     }
 
     void toString(){
+        
         for(int i = 0 ; i<selected.size();i++){
             if(selected[i]) cout << i << " ";
-        } 
+        }
+        
         cout << endl << calcCost() << endl;
     }
 };

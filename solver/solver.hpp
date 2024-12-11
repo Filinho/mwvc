@@ -4,6 +4,7 @@
 #include "include/pcg_random.hpp"
 #include <random>
 #include <chrono>
+#include <climits>
 
 class Solver{
     public:
@@ -191,8 +192,28 @@ class Solver{
       return -1;
     }
     
-    int localSearch(State & solution){
-        return 0;
+    bool localSearch(State & solution){
+      State neighboor;
+      
+      int min = INT_MAX;
+      bool improve = false;
+
+      do{
+        improve = false;
+        for(int i = 0; i < instance.nVertex;i++){
+          if(swapAdjacentNeighboorhood(solution,neighboor,i)!= -1) {
+            int aux = neighboor.calcCost();
+            if( aux < min){
+            solution.selected = neighboor.selected;
+             min = aux;
+             improve = true;
+            }
+          }
+        }
+        solution.toString();
+      }while(improve);
+
+      return improve;
     }
 
 
