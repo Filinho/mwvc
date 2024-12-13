@@ -37,7 +37,13 @@ public:
         } 
         return cost;
     }
-
+    int nSelected(){
+        int cost = 0;
+        for(int i = 0 ; i<selected.size();i++){
+            if(selected[i]) cost+= 1;
+        }
+        return cost;
+    }
     void toString(){
         
         for(int i = 0 ; i<selected.size();i++){

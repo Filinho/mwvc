@@ -70,20 +70,20 @@ class Solver{
 
       chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
 
-        vector<int> order;
-        vector<set<int>> auxAdjList = instance.adjList;
-        order.resize(instance.nVertex);
-        order[0] = 0;
-     
-        for(int i = 1 ; i< instance.nVertex;i++){
-            if (instance.adjList[i].size() == 0) continue;
-            int j = i -1;
-            while( j >=0 && (float) instance.weight[i]/instance.adjList[i].size() < (float)  instance.weight[order[j]]/instance.adjList[order[j]].size()){
-                order[j+1] = order[j];
-                j--;
-            }
-            order[j+1] = i;
+      vector<int> order;
+      vector<set<int>> auxAdjList = instance.adjList;
+      order.resize(instance.nVertex);
+      order[0] = 0;
+
+      for(int i = 1 ; i< instance.nVertex;i++){
+        if (instance.adjList[i].size() == 0) continue;
+        int j = i -1;
+        while( j >=0 && (float) instance.weight[i]/instance.adjList[i].size() < (float)  instance.weight[order[j]]/instance.adjList[order[j]].size()){
+          order[j+1] = order[j];
+          j--;
         }
+        order[j+1] = i;
+      }
 
         int nEdges = instance.nEdges;
         int auxI=0;
@@ -177,22 +177,66 @@ class Solver{
       newSolution.selected[index] = 0;
 
       vector<int> adj;
-
+      
       for(int a : instance.adjList[index]){
         adj.push_back(a);
+  
       }
-
       for(int i  = 0; i < adj.size();i++){
         newSolution.selected[adj[i]] = 1;
-        if(newSolution.verify()){
-          return newSolution.calcCost();
-          break;
-        } 
       }
-      return -1;
+      
+      return newSolution.calcCost();
     }
-    
-    bool localSearch(State & solution){
+
+    int swap2VertexNeighboorhood(State & solution, State & newSolution, pcg32 rng){
+
+      int nSelected = solution.nSelected();
+
+      int v1 = rng(nSelected);
+      int v2 = rng(nSelected);
+      int j=0;
+      for(int i = 0 ; i < instance.nVertex; i++){
+        if(solution.selected[i] == 1) j++;
+        if(j == v1) v1=i;
+        if(j == v2) v2=i;
+      }
+      newSolution.selected[v1] = 0;
+      newSolution.selected[v2] = 0;
+
+      vector<bool> adjAux(instance.nVertex,false);
+
+      for(int a : instance.adjList[v1]){
+        adjAux[a] = true;
+      }
+
+      for(int a : instance.adjList[v2]){
+        adjAux[a] = true;
+      }
+      vector<int> adj;
+      int nEdges = instance.adjList[v1].size();
+      if(v1 != v2) nEdges += instance.adjList[v2].size();
+      if(instance.adjList[v1].find(v2) != instance.adjList[v1].end()) --nEdges;
+
+      for(int i = 0 ; i < instance.nVertex; i++){
+        if(solution.selected[i] == 1) adj.push_back(i);
+      }
+
+      while(nEdges > 0){
+        int v = rng(adj.size());
+
+        newSolution.selected[adj[v]] = 1;
+
+        if(instance.adjList[adj[v]].find(v1) != instance.adjList[adj[v]].end())  --nEdges;
+        if(instance.adjList[adj[v]].find(v2) != instance.adjList[adj[v]].end() && v1!=v2)  --nEdges;
+      }
+
+      solution = newSolution;
+      return solution.calcCost();
+    }
+
+    bool localSearch(State & solution, int op){
+      pcg32 rng(instance.nVertex);
       State neighboor;
       
       int min = INT_MAX;
@@ -201,16 +245,28 @@ class Solver{
       do{
         improve = false;
         for(int i = 0; i < instance.nVertex;i++){
-          if(swapAdjacentNeighboorhood(solution,neighboor,i)!= -1) {
-            int aux = neighboor.calcCost();
-            if( aux < min){
-            solution.selected = neighboor.selected;
-             min = aux;
-             improve = true;
+          if(op ==1){
+            if(swap2VertexNeighboorhood(solution,neighboor,rng) < min) {
+              int aux = neighboor.calcCost();
+              if( aux < min){
+              solution.selected = neighboor.selected;
+               min = aux;
+               improve = true;
+              }
+            }
+         }
+
+          if(op ==2){
+            if(swapAdjacentNeighboorhood(solution,neighboor,i) < min) {
+              int aux = neighboor.calcCost();
+              if( aux < min){
+              solution.selected = neighboor.selected;
+               min = aux;
+               improve = true;
+              }
             }
           }
         }
-        solution.toString();
       }while(improve);
 
       return improve;

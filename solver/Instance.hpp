@@ -16,13 +16,12 @@ public:
   int nEdges;
   vector<int> weight;
   vector<set<int>> adjList;
-  
+
   void parse(const string& filePath) {
     ifstream streamFile;
     unsigned auxWeight;
     unsigned auxV1;
     unsigned auxV2;
-
     streamFile.open(filePath);
 
     streamFile >> nEdges;
