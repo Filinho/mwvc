@@ -25,12 +25,9 @@ int main(int argc, char* argv[]) {
 	 else {
 	 	cout << "RatioEdge: " << ratio << " Time(ms): " << s2.timeSpent << endl;
 	 }
-	 s2.toString();
 	s1.selected = s2.selected;
-	solver.localSearch(s2,2);
-	s2.toString();
-
-	solver.localSearch(s1,1);
 	s1.toString();
+    solver.tabu(s1,Solver::generateNeighboorhoodRandom,20,30000);
+    s1.toString();
 
 }

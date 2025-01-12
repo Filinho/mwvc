@@ -5,6 +5,9 @@
 #include <random>
 #include <chrono>
 #include <climits>
+#include <deque>
+#include <vector>
+
 
 class Solver{
     public:
@@ -171,7 +174,7 @@ class Solver{
       return cost;
     }
 
-    int swapAdjacentNeighboorhood(State & solution, State & newSolution, int index){
+    static int swapAdjacentNeighboor(State & solution, State & newSolution, int index){
       newSolution = solution;
  
       newSolution.selected[index] = 0;
@@ -189,18 +192,18 @@ class Solver{
       return newSolution.calcCost();
     }
 
-    int swap2VertexNeighboorhood(State & solution, State & newSolution, pcg32 rng){
+    static int swap2VertexNeighboor(State & solution, State & newSolution,int v1, int v2){
 
       int nSelected = solution.nSelected();
 
-      int v1 = rng(nSelected);
-      int v2 = rng(nSelected);
+
       int j=0;
       for(int i = 0 ; i < instance.nVertex; i++){
         if(solution.selected[i] == 1) j++;
         if(j == v1) v1=i;
         if(j == v2) v2=i;
       }
+
       newSolution.selected[v1] = 0;
       newSolution.selected[v2] = 0;
 
@@ -213,6 +216,8 @@ class Solver{
       for(int a : instance.adjList[v2]){
         adjAux[a] = true;
       }
+
+
       vector<int> adj;
       int nEdges = instance.adjList[v1].size();
       if(v1 != v2) nEdges += instance.adjList[v2].size();
@@ -221,7 +226,7 @@ class Solver{
       for(int i = 0 ; i < instance.nVertex; i++){
         if(solution.selected[i] == 1) adj.push_back(i);
       }
-
+       pcg32 rng(instance.nVertex);
       while(nEdges > 0){
         int v = rng(adj.size());
 
@@ -234,7 +239,7 @@ class Solver{
       solution = newSolution;
       return solution.calcCost();
     }
-
+/*
     bool localSearch(State & solution, int op){
       pcg32 rng(instance.nVertex);
       State neighboor;
@@ -246,7 +251,7 @@ class Solver{
         improve = false;
         for(int i = 0; i < instance.nVertex;i++){
           if(op ==1){
-            if(swap2VertexNeighboorhood(solution,neighboor,rng) < min) {
+            if(swap2VertexNeighboor(solution,neighboor, i) < min) {
               int aux = neighboor.calcCost();
               if( aux < min){
               solution.selected = neighboor.selected;
@@ -257,7 +262,7 @@ class Solver{
          }
 
           if(op ==2){
-            if(swapAdjacentNeighboorhood(solution,neighboor,i) < min) {
+            if(swapAdjacentNeighboor(solution,neighboor,i) < min) {
               int aux = neighboor.calcCost();
               if( aux < min){
               solution.selected = neighboor.selected;
@@ -272,6 +277,82 @@ class Solver{
       return improve;
     }
 
+	bool VNS(State & solution){
+          int op = 1;
+          int loopLock= 0;
+         while(loopLock < 2){
+
+           if(localSearch(solution,op)){
+             loopLock = 0;
+           }
+           else{
+              op = op == 1 ? 2 : 1;
+              ++loopLock;
+           }
+	     }
+       return true;
+    }
+
+ */
+   	static void generateNeighboorhoodAdjacent(State & solution,vector<State> & neighboorhood){
+          neighboorhood.clear();
+          for(int i = 0 ; i < instance.nVertex; i++){
+            State aux;
+            if(solution.selected[i] == 1){
+            	swapAdjacentNeighboor(solution,aux,i);
+                neighboorhood.push_back(aux);
+            }
+          }
+   	}
+
+    static void generateNeighboorhoodRandom(State & solution, vector<State> & neighboorhood){
+      neighboorhood.clear();
+      State aux;
+      for(int i = 0 ; i < instance.nVertex; i++){
+        if(solution.selected[i] == 1){
+          for(int j = 0 ; j < instance.nVertex; j++){
+            if(solution.selected[j] == 1){
+              swap2VertexNeighboor(solution,aux,i,j);
+              neighboorhood.push_back(aux);
+            }
+          }
+        }
+      }
+    }
+
+	bool tabuSearch(State & currentSolution, void(*neighboorhood)(State &, vector<State> &), deque<State> & tabuList, int tenure){
+      State neighboor;
+      pcg32 rng(instance.nVertex);
+      vector<State> candidates;
+      neighboorhood(currentSolution,candidates);
+      State::heapSort(candidates);
+      bool isPresent = false;
+      for(int i = 0 ; i < instance.nVertex; i++){
+        for(State s : tabuList){
+            isPresent = isPresent || candidates[i].compare(s);
+            if(isPresent) break;
+        }
+        if(!isPresent){
+          tabuList.push_back(candidates[i]);
+          currentSolution = candidates[i];
+          break;
+        }
+      }
+      if(tabuList.size() > tenure) tabuList.pop_front();
+
+      return true;
+    }
+
+    bool tabu(State & solution,void(*neighboorhood)(State &, vector<State> &), int tenure, int time){
+		deque<State> tabuList;
+        chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
+        State currentState = solution;
+        while(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time ){
+            tabuSearch(currentState,neighboorhood,tabuList,tenure);
+            if(currentState.calcCost() < solution.calcCost()) solution = currentState;
+        }
+        return true;
+    }
 
 };
 
