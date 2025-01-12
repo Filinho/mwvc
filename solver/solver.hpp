@@ -180,82 +180,69 @@ class Solver{
  
       newSolution.selected[index] = 0;
 
-      vector<int> adj;
-      
-      for(int a : instance.adjList[index]){
-        adj.push_back(a);
-      }
-      for(int i  = 0; i < adj.size();i++){
-        newSolution.selected[adj[i]] = 1;
+      for(int a: instance.adjList[index]){
+        newSolution.selected[a] = 1;
       }
       
-      return newSolution.calcCost();
+       return  newSolution.calcCost();
+
     }
 
     static int swap2VertexNeighboor(State & solution, State & newSolution,int v1, int v2){
-      cout << v1 << " " << v2 << endl;
+
       State aux;
       swapAdjacentNeighboor(solution, aux, v1);
       swapAdjacentNeighboor(aux, newSolution, v2);
 
-      return newSolution.calcCost();
-    }
-/*
-    bool localSearch(State & solution, int op){
-      pcg32 rng(instance.nVertex);
-      State neighboor;
-      
-      int min = INT_MAX;
-      bool improve = false;
+     return newSolution.calcCost();
 
-      do{
-        improve = false;
-        for(int i = 0; i < instance.nVertex;i++){
-          if(op ==1){
-            if(swap2VertexNeighboor(solution,neighboor, i) < min) {
-              int aux = neighboor.calcCost();
-              if( aux < min){
-              solution.selected = neighboor.selected;
-               min = aux;
-               improve = true;
-              }
-            }
+    }
+
+    bool localSearch(void(*neighboorhood)(State &, vector<State> &,pcg32 &),State & solution, pcg32 & generator){
+      vector<State> candidates;
+      neighboorhood(solution, candidates, generator);
+      State min = candidates[0];
+      for(int i = 1 ; i < candidates.size(); ++i){
+        if(candidates[i].cost < min.cost) min = candidates[i];
+      }
+      if(min.cost < solution.cost){
+        solution = min;
+        return true;
+      }
+      return false;
+    }
+
+	bool VNS(State & solution, int time){
+         int op = 1;
+         int loopLock= 0;
+         pcg32 rng(instance.nVertex);
+         chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
+         while(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time){
+           loopLock = 0;
+           while(loopLock < 2 && chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time){
+		   	vector<State> starts;
+            if(op == 1) Solver::generateNeighboorhoodAdjacent(solution, starts, rng);
+           	else Solver::generateNeighboorhoodRandom(solution, starts, rng);
+           	int i =rng(starts.size());
+           	State current = starts[i];
+            if(op == 1) localSearch(Solver::generateNeighboorhoodAdjacent,current,rng);
+           	else localSearch(Solver::generateNeighboorhoodRandom,current,rng);
+           	if(current.cost < solution.cost){
+            	 	loopLock = 0;
+					solution = current;
+           	}
+           	else{
+               	op = op == 1 ? 2 : 1;
+              	++loopLock;
+           	}
+	       }
          }
 
-          if(op ==2){
-            if(swapAdjacentNeighboor(solution,neighboor,i) < min) {
-              int aux = neighboor.calcCost();
-              if( aux < min){
-              solution.selected = neighboor.selected;
-               min = aux;
-               improve = true;
-              }
-            }
-          }
-        }
-      }while(improve);
-
-      return improve;
-    }
-
-	bool VNS(State & solution){
-          int op = 1;
-          int loopLock= 0;
-         while(loopLock < 2){
-
-           if(localSearch(solution,op)){
-             loopLock = 0;
-           }
-           else{
-              op = op == 1 ? 2 : 1;
-              ++loopLock;
-           }
-	     }
        return true;
     }
 
- */
-   	static void generateNeighboorhoodAdjacent(State & solution,vector<State> & neighboorhood){
+
+   	static void generateNeighboorhoodAdjacent(State & solution,vector<State> & neighboorhood, pcg32 & generator){
           neighboorhood.clear();
           for(int i = 0 ; i < instance.nVertex; i++){
             State aux;
@@ -266,33 +253,37 @@ class Solver{
           }
    	}
 
-    static void generateNeighboorhoodRandom(State & solution, vector<State> & neighboorhood){
+    static void generateNeighboorhoodRandom(State & solution, vector<State> & neighboorhood,pcg32 & generator){
+
       neighboorhood.clear();
       State aux;
-      for(int i = 0 ; i < instance.nVertex; i++){
+      int i= generator(solution.nSelected());
+      int j= generator(solution.nSelected());
+      swap2VertexNeighboor(solution,aux,i,j);
+      neighboorhood.push_back(aux);
+      for(i = 0 ; i < instance.nVertex; i++){
         if(solution.selected[i] == 1){
-          for(int j = 0 ; j < instance.nVertex; j++){
+
+              j = generator(instance.nVertex);
+
             if(solution.selected[j] == 1 && i != j){
+
               swap2VertexNeighboor(solution,aux,i,j);
               neighboorhood.push_back(aux);
             }
-          }
         }
       }
     }
 
-	bool tabuSearch(State & currentSolution, void(*neighboorhood)(State &, vector<State> &), deque<State> & tabuList, int tenure){
+	bool tabuSearch(State & currentSolution, void(*neighboorhood)(State &, vector<State> &,pcg32 & ), deque<State> & tabuList, int tenure, pcg32 & generator){
 
       State neighboor;
-      pcg32 rng(instance.nVertex);
       vector<State> candidates;
-      neighboorhood(currentSolution,candidates);
-      cout << "heapSort" << endl;
+      neighboorhood(currentSolution,candidates,generator);
       State::heapSort(candidates);
-      cout << "heapSort end" << endl;
       bool isPresent = false;
       for(int i = 0 ; i < candidates.size(); i++){
-        cout << i <<endl;
+
         for(State s : tabuList){
 
             isPresent = isPresent || candidates[i].compare(s);
@@ -309,16 +300,16 @@ class Solver{
       return true;
     }
 
-    bool tabu(State & solution,void(*neighboorhood)(State &, vector<State> &), int tenure, int time){
+    bool tabu(State & solution,void(*neighboorhood)(State &, vector<State> &,pcg32 & ), int tenure, int time){
 		deque<State> tabuList;
+        pcg32 rng(instance.nVertex);
         chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
         State currentState = solution;
         while(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time ){
-          cout<<"tabu"<<endl;
-            tabuSearch(currentState,neighboorhood,tabuList,tenure);
-            if(currentState.calcCost() < solution.calcCost()) solution = currentState;
+
+            tabuSearch(currentState,neighboorhood,tabuList,tenure,rng);
+            if(currentState.cost < solution.cost) solution = currentState;
         }
-        cout<<"tabufim"<<endl;
         return true;
     }
 

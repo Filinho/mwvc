@@ -8,6 +8,7 @@ class State{
 public:
     vector<bool> selected; 
     unsigned timeSpent;
+    int cost;
     State(){
         selected.resize(instance.nVertex);
         timeSpent = 0;
@@ -34,7 +35,8 @@ public:
         int cost = 0;
         for(int i = 0 ; i<selected.size();i++){
             if(selected[i]) cost+= instance.weight[i];
-        } 
+        }
+        this->cost = cost;
         return cost;
     }
     int nSelected(){
@@ -64,11 +66,11 @@ public:
         int right = 2 * i + 2;
 
 
-        if (left < n && arr[left].calcCost() > arr[smallest].calcCost())
+        if (left < n && arr[left].cost > arr[smallest].cost)
             smallest = left;
 
 
-        if (right < n && arr[right].calcCost() > arr[smallest].calcCost())
+        if (right < n && arr[right].cost > arr[smallest].cost)
             smallest = right;
 
         if (smallest != i) {
@@ -82,13 +84,12 @@ public:
 
         int n = arr.size();
 
-		cout<<n<<endl;
         for (int i = n / 2 - 1; i >= 0; i--)
             heapify(arr, n, i);
 
 
         for (int i = n - 1; i > 0; i--) {
-			cout<<i<<endl;
+
             swap(arr[0], arr[i]);
             heapify(arr, i, 0);
         }

@@ -27,7 +27,9 @@ int main(int argc, char* argv[]) {
 	 }
 	s1.selected = s2.selected;
 	s1.toString();
-    solver.tabu(s1,Solver::generateNeighboorhoodRandom,20,30000);
+    solver.VNS(s1,300000);
+    //solver.tabu(s1,Solver::generateNeighboorhoodRandom,20,30000);
+
     s1.toString();
     if (!s1.verify()) cout<<"invalido"<<endl;
 
