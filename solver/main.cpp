@@ -29,5 +29,6 @@ int main(int argc, char* argv[]) {
 	s1.toString();
     solver.tabu(s1,Solver::generateNeighboorhoodRandom,20,30000);
     s1.toString();
+    if (!s1.verify()) cout<<"invalido"<<endl;
 
 }

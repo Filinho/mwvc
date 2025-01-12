@@ -175,6 +175,7 @@ class Solver{
     }
 
     static int swapAdjacentNeighboor(State & solution, State & newSolution, int index){
+
       newSolution = solution;
  
       newSolution.selected[index] = 0;
@@ -183,7 +184,6 @@ class Solver{
       
       for(int a : instance.adjList[index]){
         adj.push_back(a);
-  
       }
       for(int i  = 0; i < adj.size();i++){
         newSolution.selected[adj[i]] = 1;
@@ -193,51 +193,12 @@ class Solver{
     }
 
     static int swap2VertexNeighboor(State & solution, State & newSolution,int v1, int v2){
+      cout << v1 << " " << v2 << endl;
+      State aux;
+      swapAdjacentNeighboor(solution, aux, v1);
+      swapAdjacentNeighboor(aux, newSolution, v2);
 
-      int nSelected = solution.nSelected();
-
-
-      int j=0;
-      for(int i = 0 ; i < instance.nVertex; i++){
-        if(solution.selected[i] == 1) j++;
-        if(j == v1) v1=i;
-        if(j == v2) v2=i;
-      }
-
-      newSolution.selected[v1] = 0;
-      newSolution.selected[v2] = 0;
-
-      vector<bool> adjAux(instance.nVertex,false);
-
-      for(int a : instance.adjList[v1]){
-        adjAux[a] = true;
-      }
-
-      for(int a : instance.adjList[v2]){
-        adjAux[a] = true;
-      }
-
-
-      vector<int> adj;
-      int nEdges = instance.adjList[v1].size();
-      if(v1 != v2) nEdges += instance.adjList[v2].size();
-      if(instance.adjList[v1].find(v2) != instance.adjList[v1].end()) --nEdges;
-
-      for(int i = 0 ; i < instance.nVertex; i++){
-        if(solution.selected[i] == 1) adj.push_back(i);
-      }
-       pcg32 rng(instance.nVertex);
-      while(nEdges > 0){
-        int v = rng(adj.size());
-
-        newSolution.selected[adj[v]] = 1;
-
-        if(instance.adjList[adj[v]].find(v1) != instance.adjList[adj[v]].end())  --nEdges;
-        if(instance.adjList[adj[v]].find(v2) != instance.adjList[adj[v]].end() && v1!=v2)  --nEdges;
-      }
-
-      solution = newSolution;
-      return solution.calcCost();
+      return newSolution.calcCost();
     }
 /*
     bool localSearch(State & solution, int op){
@@ -311,7 +272,7 @@ class Solver{
       for(int i = 0 ; i < instance.nVertex; i++){
         if(solution.selected[i] == 1){
           for(int j = 0 ; j < instance.nVertex; j++){
-            if(solution.selected[j] == 1){
+            if(solution.selected[j] == 1 && i != j){
               swap2VertexNeighboor(solution,aux,i,j);
               neighboorhood.push_back(aux);
             }
@@ -321,14 +282,19 @@ class Solver{
     }
 
 	bool tabuSearch(State & currentSolution, void(*neighboorhood)(State &, vector<State> &), deque<State> & tabuList, int tenure){
+
       State neighboor;
       pcg32 rng(instance.nVertex);
       vector<State> candidates;
       neighboorhood(currentSolution,candidates);
+      cout << "heapSort" << endl;
       State::heapSort(candidates);
+      cout << "heapSort end" << endl;
       bool isPresent = false;
-      for(int i = 0 ; i < instance.nVertex; i++){
+      for(int i = 0 ; i < candidates.size(); i++){
+        cout << i <<endl;
         for(State s : tabuList){
+
             isPresent = isPresent || candidates[i].compare(s);
             if(isPresent) break;
         }
@@ -348,9 +314,11 @@ class Solver{
         chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
         State currentState = solution;
         while(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time ){
+          cout<<"tabu"<<endl;
             tabuSearch(currentState,neighboorhood,tabuList,tenure);
             if(currentState.calcCost() < solution.calcCost()) solution = currentState;
         }
+        cout<<"tabufim"<<endl;
         return true;
     }
 
