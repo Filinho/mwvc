@@ -7,6 +7,7 @@
 #include <climits>
 #include <deque>
 #include <vector>
+#include <cmath>
 
 
 class Solver{
@@ -174,7 +175,7 @@ class Solver{
       return cost;
     }
 
-    static int swapAdjacentNeighboor(State & solution, State & newSolution, int index){
+    static int swapAdjacentNeighboor(State & solution, State & newSolution, int index, int x){
 
       newSolution = solution;
  
@@ -191,8 +192,9 @@ class Solver{
     static int swap2VertexNeighboor(State & solution, State & newSolution,int v1, int v2){
 
       State aux;
-      swapAdjacentNeighboor(solution, aux, v1);
-      swapAdjacentNeighboor(aux, newSolution, v2);
+      if(v1==v2) return swapAdjacentNeighboor(solution, newSolution, v1,-1);
+      swapAdjacentNeighboor(solution, aux, v1,-1);
+      swapAdjacentNeighboor(aux, newSolution, v2,-1);
 
      return newSolution.calcCost();
 
@@ -247,7 +249,7 @@ class Solver{
           for(int i = 0 ; i < instance.nVertex; i++){
             State aux;
             if(solution.selected[i] == 1){
-            	swapAdjacentNeighboor(solution,aux,i);
+            	swapAdjacentNeighboor(solution,aux,i,-1);
                 neighboorhood.push_back(aux);
             }
           }
@@ -311,6 +313,40 @@ class Solver{
             if(currentState.cost < solution.cost) solution = currentState;
         }
         return true;
+    }
+
+    bool simulatedAnnealing(int opN, State & solution,pcg32 & generator, double cooling, double initialTemp,int equilibrium,int time){
+
+      int (*neighboorhood)(State &, State &, int, int);
+      if(opN == 1) neighboorhood = & Solver::swapAdjacentNeighboor;
+      else neighboorhood = & Solver::swap2VertexNeighboor;
+      State current = solution;
+
+      double temp = initialTemp;
+      
+      int e = 0;
+      chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
+      while(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time){
+        e =0;
+        while(e < equilibrium && chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time){
+         int i= generator(current.nSelected());
+          int j= generator(current.nSelected());
+          State aux;
+          neighboorhood(current,aux,i,j);
+          int delta = aux.cost - current.cost;
+          
+          if(pow(M_E, delta)/(temp) < 1 && pow(M_E, delta)/(temp) < generator(INT_MAX)/INT_MAX) current = aux;
+          else{
+            current = aux;
+            if(solution.cost > current.cost) solution = current;
+          }
+          e++;
+        }
+        
+        temp *= cooling;
+      }
+      
+      return true;
     }
 
 };

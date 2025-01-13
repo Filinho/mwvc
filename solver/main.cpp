@@ -4,7 +4,7 @@
 int main(int argc, char* argv[]) {
 
 	Graph g;
-
+	pcg32 rng(instance.nVertex);
 	instance.parse(argv[1]);
 	State s1;
 	State s2;
@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
 	 }
 	s1.selected = s2.selected;
 	s1.toString();
-    solver.VNS(s1,300000);
+    solver.simulatedAnnealing(1,s1,rng,0.9,10,5,30000);
     //solver.tabu(s1,Solver::generateNeighboorhoodRandom,20,30000);
 
     s1.toString();
