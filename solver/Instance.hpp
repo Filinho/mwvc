@@ -13,8 +13,8 @@ using namespace std;
 
 class Graph {
 public:
-  int nVertex;
-  int nEdges;
+  unsigned nVertex;
+  unsigned nEdges;
   vector<int> weight;
   vector<set<int>> adjList;
 
@@ -50,7 +50,7 @@ public:
 
   void printGraph() {
     cout << nVertex << endl;
-    for (int i = 0; i < nVertex; i++) {
+    for (unsigned i = 0; i < nVertex; i++) {
       cout << weight[i]  << " " ;
       for (int neighbor : adjList[i]) {
         cout << neighbor << " ";

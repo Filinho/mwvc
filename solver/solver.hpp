@@ -167,6 +167,9 @@ class Solver{
             solution = auxSol;
             cost = auxCost;
           }
+    for (unsigned k = 1; k < instance.nVertex; ++k) {
+      for (unsigned i = 0; i < possibleSol.size(); ++i) {
+        for (unsigned j = 0; j < possibleSol[i].size(); ++j) {
         }
       }
 
@@ -204,7 +207,7 @@ class Solver{
       vector<State> candidates;
       neighboorhood(solution, candidates, generator);
       State min = candidates[0];
-      for(int i = 1 ; i < candidates.size(); ++i){
+      for(unsigned i = 1 ; i < candidates.size(); ++i){
         if(candidates[i].cost < min.cost) min = candidates[i];
       }
       if(min.cost < solution.cost){
@@ -269,6 +272,8 @@ class Solver{
               j = generator(instance.nVertex);
 
             if(solution.selected[j] == 1 && i != j){
+    unsigned i= generator(solution.nSelected());
+    unsigned j= generator(solution.nSelected());
 
               swap2VertexNeighboor(solution,aux,i,j);
               neighboorhood.push_back(aux);
@@ -277,14 +282,14 @@ class Solver{
       }
     }
 
-	bool tabuSearch(State & currentSolution, void(*neighboorhood)(State &, vector<State> &,pcg32 & ), deque<State> & tabuList, int tenure, pcg32 & generator){
+	bool tabuSearch(State & currentSolution, void(*neighboorhood)(State &, vector<State> &,pcg32 & ), deque<State> & tabuList, unsigned tenure, pcg32 & generator){
 
       State neighboor;
       vector<State> candidates;
       neighboorhood(currentSolution,candidates,generator);
       State::heapSort(candidates);
       bool isPresent = false;
-      for(int i = 0 ; i < candidates.size(); i++){
+      for(unsigned i = 0 ; i < candidates.size(); i++){
 
         for(State s : tabuList){
 
@@ -302,7 +307,7 @@ class Solver{
       return true;
     }
 
-    bool tabu(State & solution,void(*neighboorhood)(State &, vector<State> &,pcg32 & ), int tenure, int time){
+  bool tabu(State & solution,void(*neighboorhood)(State &, vector<State> &,pcg32 & ), unsigned tenure, unsigned time){
 		deque<State> tabuList;
         pcg32 rng(instance.nVertex);
         chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
@@ -315,9 +320,10 @@ class Solver{
         return true;
     }
 
-    bool simulatedAnnealing(int opN, State & solution,pcg32 & generator, double cooling, double initialTemp,int equilibrium,int time){
+  bool simulatedAnnealing(int opN, State & solution,pcg32 & generator, double cooling, double initialTemp,int equilibrium,int time){
 
-      int (*neighboorhood)(State &, State &, int, int);
+      int (*neighboorhood)(State &, State &, unsigned, unsigned);
+
       if(opN == 1) neighboorhood = & Solver::swapAdjacentNeighboor;
       else neighboorhood = & Solver::swap2VertexNeighboor;
       State current = solution;
@@ -329,8 +335,8 @@ class Solver{
       while(chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time){
         e =0;
         while(e < equilibrium && chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time){
-         int i= generator(current.nSelected());
-          int j= generator(current.nSelected());
+          unsigned i = generator(current.nSelected());
+          unsigned j = generator(current.nSelected());
           State aux;
           neighboorhood(current,aux,i,j);
           int delta = aux.cost - current.cost;
