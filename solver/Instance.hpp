@@ -58,6 +58,14 @@ public:
       cout << endl;
     }
   }
+
+  unsigned weigthSum() {
+    unsigned sum = 0;
+    for (unsigned i = 0; i < nVertex; ++i) {
+      sum += weight[i];
+    }
+    return sum;
+  }
 };
 
 Graph instance;

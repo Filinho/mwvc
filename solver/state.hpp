@@ -60,6 +60,7 @@ public:
       }
       return true;
     }
+
     static void heapify(vector<State> &arr, int n, int i) {
         int smallest = i;
         int left = 2 * i + 1;
@@ -86,7 +87,6 @@ public:
 
         for (int i = n / 2 - 1; i >= 0; i--)
             heapify(arr, n, i);
-
 
         for (int i = n - 1; i > 0; i--) {
 
