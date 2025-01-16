@@ -19,10 +19,11 @@ int main(int argc, char* argv[]) {
 	//	("initialTemp", po:value<double>()->default_value(300.0), "initial temperature in SA")
 	//	;
 
-	unsigned neighborhood = atoi(argv[2]);
-	unsigned initialTemp = atoi(argv[3]);
-	double coolingFactor = atof(argv[4]);
-	unsigned searchType = 4;
+	//unsigned neighborhood = atoi(argv[2]);
+	unsigned neighborhood = 2; 
+	unsigned initialTemp = atoi(argv[2]);
+	double coolingFactor = atof(argv[3]);
+	unsigned searchType = 2;
 
 	Graph g;
 	pcg32 rng(321);
@@ -52,27 +53,25 @@ int main(int argc, char* argv[]) {
 	State s = s2;
 	switch (searchType) {
 		case 0:
-			solver.localSearch(Solver::generateNeighboorhoodAdjacent, s, rng);
+			solver.localSearch(neighborhood, s, rng);
 			break;
 		case 1:
-			solver.localSearch(Solver::generateNeighboorhoodRandom, s, rng);
+			solver.localSearchFirstImprv(neighborhood, s, rng);
 			break;
 		case 2:
-			solver.simulatedAnnealing(1, s, rng, coolingFactor, initialTemp, 5, 30000);
+			solver.simulatedAnnealing(neighborhood, s, rng, coolingFactor, initialTemp, instance.nVertex, 30000);
 			break;
 		case 3:
-			solver.simulatedAnnealing(2, s, rng, coolingFactor, initialTemp, 5, 30000);
-			break;
-		case 4:
 			solver.VNS(s, 30000, rng);
 			break;
 	}
 
 	if (!s.verify()) {
-		cout << "Solução invalida!!!" << endl;
+		cout << "Solucao invalida!!!" << endl;
 	}
 	else {
 		cout << argv[1] << " " << s.cost << " " << s.timeSpent <<  endl;
+		//cout << s.cost << endl;
 		//s1.toString();
 	}
 
