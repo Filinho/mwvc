@@ -357,7 +357,7 @@ class Solver{
         return true;
     }
 
-  bool simulatedAnnealing(int opN, State & solution,pcg32 & generator, double cooling, double initialTemp,int equilibrium,int time){
+  double simulatedAnnealing(int opN, State & solution,pcg32 & generator, double cooling, double initialTemp,int equilibrium,int time){
 
       int (*neighboorhood)(State &, State &, unsigned, unsigned);
 
@@ -367,6 +367,7 @@ class Solver{
       State current = solution;
 
       double temp = initialTemp;
+      //cout << solution.cost << endl;
       
       int e = 0;
       chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
@@ -375,6 +376,11 @@ class Solver{
         while(e < equilibrium && chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time){
           unsigned i = generator(current.nSelected());
           unsigned j = generator(current.nSelected());
+
+          i = current.fromSelectedToIndex(i);
+
+          if (opN == 2) j = current.fromSelectedToIndex(j);
+
           State aux;
           neighboorhood(current,aux,i,j);
           int delta = aux.cost - current.cost;
@@ -383,9 +389,14 @@ class Solver{
 
           if (prob > 1 || prob > dist) {
             current = aux;
+            //cout << "aceita" << prob << " " << dist << " " << temp << " " << current.cost << " " << aux.cost ;
             if (aux.cost < solution.cost) {
               solution = aux;
+              //cout << " melhora";
             }
+            //cout << endl;
+          }else{
+            //cout << "nao aceita" << prob << " " << dist << endl; 
           }
 
           e++;
@@ -393,8 +404,10 @@ class Solver{
         
         temp *= cooling;
       }
+
+      solution.calcCost();
       
-      return true;
+      return temp;
     }
 
 };

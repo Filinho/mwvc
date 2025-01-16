@@ -95,5 +95,12 @@ public:
         }
     }
 
+    unsigned fromSelectedToIndex(int nSelected) {
+      unsigned i = 0;
+      while (nSelected >= 0) {
+        if (selected[i++]) --nSelected;
+      }
 
+      return i-1;
+    }
 };
