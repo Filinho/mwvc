@@ -225,13 +225,21 @@ class Solver{
 
   }
 
-  // has reach local minima?
-  bool localSearch(void(*neighboorhood)(State &, vector<State> &,pcg32 &), State & solution, pcg32 & generator){
+  // has reached local minima?
+  bool localSearch(unsigned opN, State & solution, pcg32 & generator){
     vector<State> candidates;
+
+    void(*neighboorhood)(State&, vector<State> &, pcg32&);
+    if (opN == 1) {
+      neighboorhood = &Solver::generateNeighboorhoodAdjacent;
+    }
+    else {
+      neighboorhood = &Solver::generateNeighboorhoodRandom;
+    }
 
     chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
 
-    while (true && chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < 30000) {
+    while (chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < 30000) {
       neighboorhood(solution, candidates, generator);
       State min = candidates[0];
       for(unsigned i = 1 ; i < candidates.size(); ++i){
@@ -245,6 +253,45 @@ class Solver{
       solution = min;
     }
     solution.timeSpent = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count();
+
+    return false;
+  }
+
+  bool localSearchFirstImprv(unsigned opN, State& solution, pcg32& rng) {
+    int (*neighbor)(State&, State&, unsigned, unsigned);
+    if (opN == 1) {
+      neighbor = &Solver::swapAdjacentNeighboor;
+    }
+    else {
+      neighbor = &Solver::swap2VertexNeighboor;
+    }
+
+    chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
+    unsigned iter = 0;
+    unsigned maxIter = opN == 1 ? instance.nVertex : instance.nVertex * instance.nVertex;
+
+    while (iter < maxIter && chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < 30000) {
+      unsigned nSelected = solution.nSelected();
+      unsigned i = rng(nSelected);
+      unsigned j = rng(nSelected);
+
+      i = solution.fromSelectedToIndex(i);
+
+      if (opN == 2) j = solution.fromSelectedToIndex(j);
+
+      State newNeighbor;
+      neighbor(solution, newNeighbor, i, j);
+
+      if (newNeighbor.cost < solution.cost) {
+        iter = 0;
+        solution = newNeighbor;
+      }
+      ++iter;
+    } 
+
+    solution.timeSpent = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count();
+
+    if (iter >= maxIter) return true;
 
     return false;
   }
@@ -268,8 +315,7 @@ class Solver{
         int i =rng(starts.size());
         State current = starts[i];
 
-        if(op == 1) localSearch(Solver::generateNeighboorhoodAdjacent,current,rng);
-        else localSearch(Solver::generateNeighboorhoodRandom,current,rng);
+        localSearch(op, current,rng);
 
         if(current.cost < solution.cost){
           //loopLock = 0;
