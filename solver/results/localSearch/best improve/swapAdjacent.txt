@@ -1,0 +1,2250 @@
+spi_10x10_1_1.mtx
+../instances/insts/spi/type_1/spi_10x10_1_1.mtx 330 0
+spi_10x10_1_10.mtx
+../instances/insts/spi/type_1/spi_10x10_1_10.mtx 172 0
+spi_10x10_1_2.mtx
+../instances/insts/spi/type_1/spi_10x10_1_2.mtx 171 0
+spi_10x10_1_3.mtx
+../instances/insts/spi/type_1/spi_10x10_1_3.mtx 280 0
+spi_10x10_1_4.mtx
+../instances/insts/spi/type_1/spi_10x10_1_4.mtx 169 0
+spi_10x10_1_5.mtx
+../instances/insts/spi/type_1/spi_10x10_1_5.mtx 411 0
+spi_10x10_1_6.mtx
+../instances/insts/spi/type_1/spi_10x10_1_6.mtx 275 0
+spi_10x10_1_7.mtx
+../instances/insts/spi/type_1/spi_10x10_1_7.mtx 468 0
+spi_10x10_1_8.mtx
+../instances/insts/spi/type_1/spi_10x10_1_8.mtx 185 0
+spi_10x10_1_9.mtx
+../instances/insts/spi/type_1/spi_10x10_1_9.mtx 243 0
+spi_10x20_1_1.mtx
+../instances/insts/spi/type_1/spi_10x20_1_1.mtx 308 0
+spi_10x20_1_10.mtx
+../instances/insts/spi/type_1/spi_10x20_1_10.mtx 538 0
+spi_10x20_1_2.mtx
+../instances/insts/spi/type_1/spi_10x20_1_2.mtx 441 0
+spi_10x20_1_3.mtx
+../instances/insts/spi/type_1/spi_10x20_1_3.mtx 479 0
+spi_10x20_1_4.mtx
+../instances/insts/spi/type_1/spi_10x20_1_4.mtx 394 0
+spi_10x20_1_5.mtx
+../instances/insts/spi/type_1/spi_10x20_1_5.mtx 493 0
+spi_10x20_1_6.mtx
+../instances/insts/spi/type_1/spi_10x20_1_6.mtx 341 0
+spi_10x20_1_7.mtx
+../instances/insts/spi/type_1/spi_10x20_1_7.mtx 401 0
+spi_10x20_1_8.mtx
+../instances/insts/spi/type_1/spi_10x20_1_8.mtx 438 0
+spi_10x20_1_9.mtx
+../instances/insts/spi/type_1/spi_10x20_1_9.mtx 486 0
+spi_10x30_1_1.mtx
+../instances/insts/spi/type_1/spi_10x30_1_1.mtx 319 0
+spi_10x30_1_10.mtx
+../instances/insts/spi/type_1/spi_10x30_1_10.mtx 354 0
+spi_10x30_1_2.mtx
+../instances/insts/spi/type_1/spi_10x30_1_2.mtx 566 0
+spi_10x30_1_3.mtx
+../instances/insts/spi/type_1/spi_10x30_1_3.mtx 533 0
+spi_10x30_1_4.mtx
+../instances/insts/spi/type_1/spi_10x30_1_4.mtx 563 0
+spi_10x30_1_5.mtx
+../instances/insts/spi/type_1/spi_10x30_1_5.mtx 397 0
+spi_10x30_1_6.mtx
+../instances/insts/spi/type_1/spi_10x30_1_6.mtx 413 0
+spi_10x30_1_7.mtx
+../instances/insts/spi/type_1/spi_10x30_1_7.mtx 519 0
+spi_10x30_1_8.mtx
+../instances/insts/spi/type_1/spi_10x30_1_8.mtx 458 0
+spi_10x30_1_9.mtx
+../instances/insts/spi/type_1/spi_10x30_1_9.mtx 480 0
+spi_10x40_1_1.mtx
+../instances/insts/spi/type_1/spi_10x40_1_1.mtx 564 0
+spi_10x40_1_10.mtx
+../instances/insts/spi/type_1/spi_10x40_1_10.mtx 600 0
+spi_10x40_1_2.mtx
+../instances/insts/spi/type_1/spi_10x40_1_2.mtx 433 0
+spi_10x40_1_3.mtx
+../instances/insts/spi/type_1/spi_10x40_1_3.mtx 604 0
+spi_10x40_1_4.mtx
+../instances/insts/spi/type_1/spi_10x40_1_4.mtx 367 0
+spi_10x40_1_5.mtx
+../instances/insts/spi/type_1/spi_10x40_1_5.mtx 524 0
+spi_10x40_1_6.mtx
+../instances/insts/spi/type_1/spi_10x40_1_6.mtx 384 0
+spi_10x40_1_7.mtx
+../instances/insts/spi/type_1/spi_10x40_1_7.mtx 485 0
+spi_10x40_1_8.mtx
+../instances/insts/spi/type_1/spi_10x40_1_8.mtx 561 0
+spi_10x40_1_9.mtx
+../instances/insts/spi/type_1/spi_10x40_1_9.mtx 443 0
+spi_15x100_1_1.mtx
+../instances/insts/spi/type_1/spi_15x100_1_1.mtx 895 0
+spi_15x100_1_10.mtx
+../instances/insts/spi/type_1/spi_15x100_1_10.mtx 862 0
+spi_15x100_1_2.mtx
+../instances/insts/spi/type_1/spi_15x100_1_2.mtx 888 0
+spi_15x100_1_3.mtx
+../instances/insts/spi/type_1/spi_15x100_1_3.mtx 754 0
+spi_15x100_1_4.mtx
+../instances/insts/spi/type_1/spi_15x100_1_4.mtx 1071 0
+spi_15x100_1_5.mtx
+../instances/insts/spi/type_1/spi_15x100_1_5.mtx 1011 0
+spi_15x100_1_6.mtx
+../instances/insts/spi/type_1/spi_15x100_1_6.mtx 851 0
+spi_15x100_1_7.mtx
+../instances/insts/spi/type_1/spi_15x100_1_7.mtx 775 0
+spi_15x100_1_8.mtx
+../instances/insts/spi/type_1/spi_15x100_1_8.mtx 1006 0
+spi_15x100_1_9.mtx
+../instances/insts/spi/type_1/spi_15x100_1_9.mtx 972 0
+spi_15x20_1_1.mtx
+../instances/insts/spi/type_1/spi_15x20_1_1.mtx 460 0
+spi_15x20_1_10.mtx
+../instances/insts/spi/type_1/spi_15x20_1_10.mtx 380 0
+spi_15x20_1_2.mtx
+../instances/insts/spi/type_1/spi_15x20_1_2.mtx 546 0
+spi_15x20_1_3.mtx
+../instances/insts/spi/type_1/spi_15x20_1_3.mtx 444 0
+spi_15x20_1_4.mtx
+../instances/insts/spi/type_1/spi_15x20_1_4.mtx 462 0
+spi_15x20_1_5.mtx
+../instances/insts/spi/type_1/spi_15x20_1_5.mtx 455 0
+spi_15x20_1_6.mtx
+../instances/insts/spi/type_1/spi_15x20_1_6.mtx 481 0
+spi_15x20_1_7.mtx
+../instances/insts/spi/type_1/spi_15x20_1_7.mtx 612 0
+spi_15x20_1_8.mtx
+../instances/insts/spi/type_1/spi_15x20_1_8.mtx 435 0
+spi_15x20_1_9.mtx
+../instances/insts/spi/type_1/spi_15x20_1_9.mtx 516 0
+spi_15x40_1_1.mtx
+../instances/insts/spi/type_1/spi_15x40_1_1.mtx 466 0
+spi_15x40_1_10.mtx
+../instances/insts/spi/type_1/spi_15x40_1_10.mtx 808 0
+spi_15x40_1_2.mtx
+../instances/insts/spi/type_1/spi_15x40_1_2.mtx 637 0
+spi_15x40_1_3.mtx
+../instances/insts/spi/type_1/spi_15x40_1_3.mtx 497 0
+spi_15x40_1_4.mtx
+../instances/insts/spi/type_1/spi_15x40_1_4.mtx 661 0
+spi_15x40_1_5.mtx
+../instances/insts/spi/type_1/spi_15x40_1_5.mtx 566 0
+spi_15x40_1_6.mtx
+../instances/insts/spi/type_1/spi_15x40_1_6.mtx 548 0
+spi_15x40_1_7.mtx
+../instances/insts/spi/type_1/spi_15x40_1_7.mtx 613 0
+spi_15x40_1_8.mtx
+../instances/insts/spi/type_1/spi_15x40_1_8.mtx 751 0
+spi_15x40_1_9.mtx
+../instances/insts/spi/type_1/spi_15x40_1_9.mtx 586 0
+spi_15x60_1_1.mtx
+../instances/insts/spi/type_1/spi_15x60_1_1.mtx 693 0
+spi_15x60_1_10.mtx
+../instances/insts/spi/type_1/spi_15x60_1_10.mtx 685 0
+spi_15x60_1_2.mtx
+../instances/insts/spi/type_1/spi_15x60_1_2.mtx 588 0
+spi_15x60_1_3.mtx
+../instances/insts/spi/type_1/spi_15x60_1_3.mtx 778 0
+spi_15x60_1_4.mtx
+../instances/insts/spi/type_1/spi_15x60_1_4.mtx 599 0
+spi_15x60_1_5.mtx
+../instances/insts/spi/type_1/spi_15x60_1_5.mtx 678 0
+spi_15x60_1_6.mtx
+../instances/insts/spi/type_1/spi_15x60_1_6.mtx 698 0
+spi_15x60_1_7.mtx
+../instances/insts/spi/type_1/spi_15x60_1_7.mtx 821 0
+spi_15x60_1_8.mtx
+../instances/insts/spi/type_1/spi_15x60_1_8.mtx 637 0
+spi_15x60_1_9.mtx
+../instances/insts/spi/type_1/spi_15x60_1_9.mtx 767 0
+spi_15x80_1_1.mtx
+../instances/insts/spi/type_1/spi_15x80_1_1.mtx 840 0
+spi_15x80_1_10.mtx
+../instances/insts/spi/type_1/spi_15x80_1_10.mtx 921 0
+spi_15x80_1_2.mtx
+../instances/insts/spi/type_1/spi_15x80_1_2.mtx 995 0
+spi_15x80_1_3.mtx
+../instances/insts/spi/type_1/spi_15x80_1_3.mtx 720 0
+spi_15x80_1_4.mtx
+../instances/insts/spi/type_1/spi_15x80_1_4.mtx 879 0
+spi_15x80_1_5.mtx
+../instances/insts/spi/type_1/spi_15x80_1_5.mtx 687 0
+spi_15x80_1_6.mtx
+../instances/insts/spi/type_1/spi_15x80_1_6.mtx 862 0
+spi_15x80_1_7.mtx
+../instances/insts/spi/type_1/spi_15x80_1_7.mtx 914 0
+spi_15x80_1_8.mtx
+../instances/insts/spi/type_1/spi_15x80_1_8.mtx 666 0
+spi_15x80_1_9.mtx
+../instances/insts/spi/type_1/spi_15x80_1_9.mtx 856 0
+spi_20x100_1_1.mtx
+../instances/insts/spi/type_1/spi_20x100_1_1.mtx 1117 0
+spi_20x100_1_10.mtx
+../instances/insts/spi/type_1/spi_20x100_1_10.mtx 925 0
+spi_20x100_1_2.mtx
+../instances/insts/spi/type_1/spi_20x100_1_2.mtx 1046 0
+spi_20x100_1_3.mtx
+../instances/insts/spi/type_1/spi_20x100_1_3.mtx 1035 0
+spi_20x100_1_4.mtx
+../instances/insts/spi/type_1/spi_20x100_1_4.mtx 1014 0
+spi_20x100_1_5.mtx
+../instances/insts/spi/type_1/spi_20x100_1_5.mtx 1079 0
+spi_20x100_1_6.mtx
+../instances/insts/spi/type_1/spi_20x100_1_6.mtx 1020 0
+spi_20x100_1_7.mtx
+../instances/insts/spi/type_1/spi_20x100_1_7.mtx 920 0
+spi_20x100_1_8.mtx
+../instances/insts/spi/type_1/spi_20x100_1_8.mtx 1043 0
+spi_20x100_1_9.mtx
+../instances/insts/spi/type_1/spi_20x100_1_9.mtx 1226 0
+spi_20x120_1_1.mtx
+../instances/insts/spi/type_1/spi_20x120_1_1.mtx 1121 0
+spi_20x120_1_10.mtx
+../instances/insts/spi/type_1/spi_20x120_1_10.mtx 1080 0
+spi_20x120_1_2.mtx
+../instances/insts/spi/type_1/spi_20x120_1_2.mtx 1168 0
+spi_20x120_1_3.mtx
+../instances/insts/spi/type_1/spi_20x120_1_3.mtx 1016 0
+spi_20x120_1_4.mtx
+../instances/insts/spi/type_1/spi_20x120_1_4.mtx 1037 0
+spi_20x120_1_5.mtx
+../instances/insts/spi/type_1/spi_20x120_1_5.mtx 908 0
+spi_20x120_1_6.mtx
+../instances/insts/spi/type_1/spi_20x120_1_6.mtx 1113 0
+spi_20x120_1_7.mtx
+../instances/insts/spi/type_1/spi_20x120_1_7.mtx 942 0
+spi_20x120_1_8.mtx
+../instances/insts/spi/type_1/spi_20x120_1_8.mtx 875 0
+spi_20x120_1_9.mtx
+../instances/insts/spi/type_1/spi_20x120_1_9.mtx 1077 0
+spi_20x20_1_1.mtx
+../instances/insts/spi/type_1/spi_20x20_1_1.mtx 520 0
+spi_20x20_1_10.mtx
+../instances/insts/spi/type_1/spi_20x20_1_10.mtx 397 0
+spi_20x20_1_2.mtx
+../instances/insts/spi/type_1/spi_20x20_1_2.mtx 403 0
+spi_20x20_1_3.mtx
+../instances/insts/spi/type_1/spi_20x20_1_3.mtx 494 0
+spi_20x20_1_4.mtx
+../instances/insts/spi/type_1/spi_20x20_1_4.mtx 541 0
+spi_20x20_1_5.mtx
+../instances/insts/spi/type_1/spi_20x20_1_5.mtx 466 0
+spi_20x20_1_6.mtx
+../instances/insts/spi/type_1/spi_20x20_1_6.mtx 669 0
+spi_20x20_1_7.mtx
+../instances/insts/spi/type_1/spi_20x20_1_7.mtx 560 0
+spi_20x20_1_8.mtx
+../instances/insts/spi/type_1/spi_20x20_1_8.mtx 400 0
+spi_20x20_1_9.mtx
+../instances/insts/spi/type_1/spi_20x20_1_9.mtx 544 0
+spi_20x40_1_1.mtx
+../instances/insts/spi/type_1/spi_20x40_1_1.mtx 794 0
+spi_20x40_1_10.mtx
+../instances/insts/spi/type_1/spi_20x40_1_10.mtx 630 0
+spi_20x40_1_2.mtx
+../instances/insts/spi/type_1/spi_20x40_1_2.mtx 582 0
+spi_20x40_1_3.mtx
+../instances/insts/spi/type_1/spi_20x40_1_3.mtx 940 0
+spi_20x40_1_4.mtx
+../instances/insts/spi/type_1/spi_20x40_1_4.mtx 937 0
+spi_20x40_1_5.mtx
+../instances/insts/spi/type_1/spi_20x40_1_5.mtx 862 0
+spi_20x40_1_6.mtx
+../instances/insts/spi/type_1/spi_20x40_1_6.mtx 661 0
+spi_20x40_1_7.mtx
+../instances/insts/spi/type_1/spi_20x40_1_7.mtx 787 0
+spi_20x40_1_8.mtx
+../instances/insts/spi/type_1/spi_20x40_1_8.mtx 785 0
+spi_20x40_1_9.mtx
+../instances/insts/spi/type_1/spi_20x40_1_9.mtx 833 0
+spi_20x60_1_1.mtx
+../instances/insts/spi/type_1/spi_20x60_1_1.mtx 849 0
+spi_20x60_1_10.mtx
+../instances/insts/spi/type_1/spi_20x60_1_10.mtx 923 0
+spi_20x60_1_2.mtx
+../instances/insts/spi/type_1/spi_20x60_1_2.mtx 903 0
+spi_20x60_1_3.mtx
+../instances/insts/spi/type_1/spi_20x60_1_3.mtx 808 0
+spi_20x60_1_4.mtx
+../instances/insts/spi/type_1/spi_20x60_1_4.mtx 978 0
+spi_20x60_1_5.mtx
+../instances/insts/spi/type_1/spi_20x60_1_5.mtx 885 0
+spi_20x60_1_6.mtx
+../instances/insts/spi/type_1/spi_20x60_1_6.mtx 977 0
+spi_20x60_1_7.mtx
+../instances/insts/spi/type_1/spi_20x60_1_7.mtx 1027 0
+spi_20x60_1_8.mtx
+../instances/insts/spi/type_1/spi_20x60_1_8.mtx 948 0
+spi_20x60_1_9.mtx
+../instances/insts/spi/type_1/spi_20x60_1_9.mtx 983 0
+spi_20x80_1_1.mtx
+../instances/insts/spi/type_1/spi_20x80_1_1.mtx 896 0
+spi_20x80_1_10.mtx
+../instances/insts/spi/type_1/spi_20x80_1_10.mtx 879 0
+spi_20x80_1_2.mtx
+../instances/insts/spi/type_1/spi_20x80_1_2.mtx 920 0
+spi_20x80_1_3.mtx
+../instances/insts/spi/type_1/spi_20x80_1_3.mtx 747 0
+spi_20x80_1_4.mtx
+../instances/insts/spi/type_1/spi_20x80_1_4.mtx 943 0
+spi_20x80_1_5.mtx
+../instances/insts/spi/type_1/spi_20x80_1_5.mtx 1131 0
+spi_20x80_1_6.mtx
+../instances/insts/spi/type_1/spi_20x80_1_6.mtx 857 0
+spi_20x80_1_7.mtx
+../instances/insts/spi/type_1/spi_20x80_1_7.mtx 907 0
+spi_20x80_1_8.mtx
+../instances/insts/spi/type_1/spi_20x80_1_8.mtx 822 0
+spi_20x80_1_9.mtx
+../instances/insts/spi/type_1/spi_20x80_1_9.mtx 843 0
+spi_25x100_1_1.mtx
+../instances/insts/spi/type_1/spi_25x100_1_1.mtx 1035 0
+spi_25x100_1_10.mtx
+../instances/insts/spi/type_1/spi_25x100_1_10.mtx 1234 0
+spi_25x100_1_2.mtx
+../instances/insts/spi/type_1/spi_25x100_1_2.mtx 1292 0
+spi_25x100_1_3.mtx
+../instances/insts/spi/type_1/spi_25x100_1_3.mtx 1086 0
+spi_25x100_1_4.mtx
+../instances/insts/spi/type_1/spi_25x100_1_4.mtx 1201 0
+spi_25x100_1_5.mtx
+../instances/insts/spi/type_1/spi_25x100_1_5.mtx 1030 0
+spi_25x100_1_6.mtx
+../instances/insts/spi/type_1/spi_25x100_1_6.mtx 1090 0
+spi_25x100_1_7.mtx
+../instances/insts/spi/type_1/spi_25x100_1_7.mtx 1007 0
+spi_25x100_1_8.mtx
+../instances/insts/spi/type_1/spi_25x100_1_8.mtx 1253 0
+spi_25x100_1_9.mtx
+../instances/insts/spi/type_1/spi_25x100_1_9.mtx 1521 0
+spi_25x150_1_1.mtx
+../instances/insts/spi/type_1/spi_25x150_1_1.mtx 1461 0
+spi_25x150_1_10.mtx
+../instances/insts/spi/type_1/spi_25x150_1_10.mtx 1157 0
+spi_25x150_1_2.mtx
+../instances/insts/spi/type_1/spi_25x150_1_2.mtx 1459 0
+spi_25x150_1_3.mtx
+../instances/insts/spi/type_1/spi_25x150_1_3.mtx 1295 0
+spi_25x150_1_4.mtx
+../instances/insts/spi/type_1/spi_25x150_1_4.mtx 1460 0
+spi_25x150_1_5.mtx
+../instances/insts/spi/type_1/spi_25x150_1_5.mtx 1516 0
+spi_25x150_1_6.mtx
+../instances/insts/spi/type_1/spi_25x150_1_6.mtx 1320 0
+spi_25x150_1_7.mtx
+../instances/insts/spi/type_1/spi_25x150_1_7.mtx 1436 0
+spi_25x150_1_8.mtx
+../instances/insts/spi/type_1/spi_25x150_1_8.mtx 1228 0
+spi_25x150_1_9.mtx
+../instances/insts/spi/type_1/spi_25x150_1_9.mtx 1322 0
+spi_25x200_1_1.mtx
+../instances/insts/spi/type_1/spi_25x200_1_1.mtx 1369 0
+spi_25x200_1_10.mtx
+../instances/insts/spi/type_1/spi_25x200_1_10.mtx 1358 0
+spi_25x200_1_2.mtx
+../instances/insts/spi/type_1/spi_25x200_1_2.mtx 1436 0
+spi_25x200_1_3.mtx
+../instances/insts/spi/type_1/spi_25x200_1_3.mtx 1593 0
+spi_25x200_1_4.mtx
+../instances/insts/spi/type_1/spi_25x200_1_4.mtx 1411 0
+spi_25x200_1_5.mtx
+../instances/insts/spi/type_1/spi_25x200_1_5.mtx 1394 0
+spi_25x200_1_6.mtx
+../instances/insts/spi/type_1/spi_25x200_1_6.mtx 1467 0
+spi_25x200_1_7.mtx
+../instances/insts/spi/type_1/spi_25x200_1_7.mtx 1514 0
+spi_25x200_1_8.mtx
+../instances/insts/spi/type_1/spi_25x200_1_8.mtx 1340 0
+spi_25x200_1_9.mtx
+../instances/insts/spi/type_1/spi_25x200_1_9.mtx 1343 0
+spi_25x40_1_1.mtx
+../instances/insts/spi/type_1/spi_25x40_1_1.mtx 819 0
+spi_25x40_1_10.mtx
+../instances/insts/spi/type_1/spi_25x40_1_10.mtx 749 0
+spi_25x40_1_2.mtx
+../instances/insts/spi/type_1/spi_25x40_1_2.mtx 675 0
+spi_25x40_1_3.mtx
+../instances/insts/spi/type_1/spi_25x40_1_3.mtx 778 0
+spi_25x40_1_4.mtx
+../instances/insts/spi/type_1/spi_25x40_1_4.mtx 783 0
+spi_25x40_1_5.mtx
+../instances/insts/spi/type_1/spi_25x40_1_5.mtx 896 0
+spi_25x40_1_6.mtx
+../instances/insts/spi/type_1/spi_25x40_1_6.mtx 861 0
+spi_25x40_1_7.mtx
+../instances/insts/spi/type_1/spi_25x40_1_7.mtx 796 0
+spi_25x40_1_8.mtx
+../instances/insts/spi/type_1/spi_25x40_1_8.mtx 879 0
+spi_25x40_1_9.mtx
+../instances/insts/spi/type_1/spi_25x40_1_9.mtx 949 0
+spi_25x80_1_1.mtx
+../instances/insts/spi/type_1/spi_25x80_1_1.mtx 1170 0
+spi_25x80_1_10.mtx
+../instances/insts/spi/type_1/spi_25x80_1_10.mtx 932 0
+spi_25x80_1_2.mtx
+../instances/insts/spi/type_1/spi_25x80_1_2.mtx 1147 0
+spi_25x80_1_3.mtx
+../instances/insts/spi/type_1/spi_25x80_1_3.mtx 1068 0
+spi_25x80_1_4.mtx
+../instances/insts/spi/type_1/spi_25x80_1_4.mtx 1190 0
+spi_25x80_1_5.mtx
+../instances/insts/spi/type_1/spi_25x80_1_5.mtx 1037 0
+spi_25x80_1_6.mtx
+../instances/insts/spi/type_1/spi_25x80_1_6.mtx 1068 0
+spi_25x80_1_7.mtx
+../instances/insts/spi/type_1/spi_25x80_1_7.mtx 1215 0
+spi_25x80_1_8.mtx
+../instances/insts/spi/type_1/spi_25x80_1_8.mtx 868 0
+spi_25x80_1_9.mtx
+../instances/insts/spi/type_1/spi_25x80_1_9.mtx 1044 0
+spi_10x10_2_1.mtx
+../instances/insts/spi/type_2/spi_10x10_2_1.mtx 16 0
+spi_10x10_2_10.mtx
+../instances/insts/spi/type_2/spi_10x10_2_10.mtx 17 0
+spi_10x10_2_2.mtx
+../instances/insts/spi/type_2/spi_10x10_2_2.mtx 12 0
+spi_10x10_2_3.mtx
+../instances/insts/spi/type_2/spi_10x10_2_3.mtx 11 0
+spi_10x10_2_4.mtx
+../instances/insts/spi/type_2/spi_10x10_2_4.mtx 13 0
+spi_10x10_2_5.mtx
+../instances/insts/spi/type_2/spi_10x10_2_5.mtx 19 0
+spi_10x10_2_6.mtx
+../instances/insts/spi/type_2/spi_10x10_2_6.mtx 19 0
+spi_10x10_2_7.mtx
+../instances/insts/spi/type_2/spi_10x10_2_7.mtx 13 0
+spi_10x10_2_8.mtx
+../instances/insts/spi/type_2/spi_10x10_2_8.mtx 16 0
+spi_10x10_2_9.mtx
+../instances/insts/spi/type_2/spi_10x10_2_9.mtx 16 0
+spi_10x20_2_1.mtx
+../instances/insts/spi/type_2/spi_10x20_2_1.mtx 53 0
+spi_10x20_2_10.mtx
+../instances/insts/spi/type_2/spi_10x20_2_10.mtx 74 0
+spi_10x20_2_2.mtx
+../instances/insts/spi/type_2/spi_10x20_2_2.mtx 68 0
+spi_10x20_2_3.mtx
+../instances/insts/spi/type_2/spi_10x20_2_3.mtx 70 0
+spi_10x20_2_4.mtx
+../instances/insts/spi/type_2/spi_10x20_2_4.mtx 61 0
+spi_10x20_2_5.mtx
+../instances/insts/spi/type_2/spi_10x20_2_5.mtx 72 0
+spi_10x20_2_6.mtx
+../instances/insts/spi/type_2/spi_10x20_2_6.mtx 40 0
+spi_10x20_2_7.mtx
+../instances/insts/spi/type_2/spi_10x20_2_7.mtx 41 0
+spi_10x20_2_8.mtx
+../instances/insts/spi/type_2/spi_10x20_2_8.mtx 53 0
+spi_10x20_2_9.mtx
+../instances/insts/spi/type_2/spi_10x20_2_9.mtx 41 0
+spi_10x30_2_1.mtx
+../instances/insts/spi/type_2/spi_10x30_2_1.mtx 155 0
+spi_10x30_2_10.mtx
+../instances/insts/spi/type_2/spi_10x30_2_10.mtx 125 0
+spi_10x30_2_2.mtx
+../instances/insts/spi/type_2/spi_10x30_2_2.mtx 77 0
+spi_10x30_2_3.mtx
+../instances/insts/spi/type_2/spi_10x30_2_3.mtx 141 0
+spi_10x30_2_4.mtx
+../instances/insts/spi/type_2/spi_10x30_2_4.mtx 120 0
+spi_10x30_2_5.mtx
+../instances/insts/spi/type_2/spi_10x30_2_5.mtx 142 0
+spi_10x30_2_6.mtx
+../instances/insts/spi/type_2/spi_10x30_2_6.mtx 139 0
+spi_10x30_2_7.mtx
+../instances/insts/spi/type_2/spi_10x30_2_7.mtx 163 0
+spi_10x30_2_8.mtx
+../instances/insts/spi/type_2/spi_10x30_2_8.mtx 130 0
+spi_10x30_2_9.mtx
+../instances/insts/spi/type_2/spi_10x30_2_9.mtx 156 0
+spi_10x40_2_1.mtx
+../instances/insts/spi/type_2/spi_10x40_2_1.mtx 287 0
+spi_10x40_2_10.mtx
+../instances/insts/spi/type_2/spi_10x40_2_10.mtx 239 0
+spi_10x40_2_2.mtx
+../instances/insts/spi/type_2/spi_10x40_2_2.mtx 281 0
+spi_10x40_2_3.mtx
+../instances/insts/spi/type_2/spi_10x40_2_3.mtx 294 0
+spi_10x40_2_4.mtx
+../instances/insts/spi/type_2/spi_10x40_2_4.mtx 290 0
+spi_10x40_2_5.mtx
+../instances/insts/spi/type_2/spi_10x40_2_5.mtx 312 0
+spi_10x40_2_6.mtx
+../instances/insts/spi/type_2/spi_10x40_2_6.mtx 280 0
+spi_10x40_2_7.mtx
+../instances/insts/spi/type_2/spi_10x40_2_7.mtx 186 0
+spi_10x40_2_8.mtx
+../instances/insts/spi/type_2/spi_10x40_2_8.mtx 290 0
+spi_10x40_2_9.mtx
+../instances/insts/spi/type_2/spi_10x40_2_9.mtx 303 0
+spi_15x100_2_1.mtx
+../instances/insts/spi/type_2/spi_15x100_2_1.mtx 1177 0
+spi_15x100_2_10.mtx
+../instances/insts/spi/type_2/spi_15x100_2_10.mtx 1018 0
+spi_15x100_2_2.mtx
+../instances/insts/spi/type_2/spi_15x100_2_2.mtx 974 0
+spi_15x100_2_3.mtx
+../instances/insts/spi/type_2/spi_15x100_2_3.mtx 901 0
+spi_15x100_2_4.mtx
+../instances/insts/spi/type_2/spi_15x100_2_4.mtx 1281 0
+spi_15x100_2_5.mtx
+../instances/insts/spi/type_2/spi_15x100_2_5.mtx 772 0
+spi_15x100_2_6.mtx
+../instances/insts/spi/type_2/spi_15x100_2_6.mtx 1230 0
+spi_15x100_2_7.mtx
+../instances/insts/spi/type_2/spi_15x100_2_7.mtx 1067 0
+spi_15x100_2_8.mtx
+../instances/insts/spi/type_2/spi_15x100_2_8.mtx 1297 0
+spi_15x100_2_9.mtx
+../instances/insts/spi/type_2/spi_15x100_2_9.mtx 1368 0
+spi_15x20_2_1.mtx
+../instances/insts/spi/type_2/spi_15x20_2_1.mtx 54 0
+spi_15x20_2_10.mtx
+../instances/insts/spi/type_2/spi_15x20_2_10.mtx 27 0
+spi_15x20_2_2.mtx
+../instances/insts/spi/type_2/spi_15x20_2_2.mtx 46 0
+spi_15x20_2_3.mtx
+../instances/insts/spi/type_2/spi_15x20_2_3.mtx 25 0
+spi_15x20_2_4.mtx
+../instances/insts/spi/type_2/spi_15x20_2_4.mtx 39 0
+spi_15x20_2_5.mtx
+../instances/insts/spi/type_2/spi_15x20_2_5.mtx 28 0
+spi_15x20_2_6.mtx
+../instances/insts/spi/type_2/spi_15x20_2_6.mtx 27 0
+spi_15x20_2_7.mtx
+../instances/insts/spi/type_2/spi_15x20_2_7.mtx 30 0
+spi_15x20_2_8.mtx
+../instances/insts/spi/type_2/spi_15x20_2_8.mtx 46 0
+spi_15x20_2_9.mtx
+../instances/insts/spi/type_2/spi_15x20_2_9.mtx 25 0
+spi_15x40_2_1.mtx
+../instances/insts/spi/type_2/spi_15x40_2_1.mtx 112 0
+spi_15x40_2_10.mtx
+../instances/insts/spi/type_2/spi_15x40_2_10.mtx 159 0
+spi_15x40_2_2.mtx
+../instances/insts/spi/type_2/spi_15x40_2_2.mtx 167 0
+spi_15x40_2_3.mtx
+../instances/insts/spi/type_2/spi_15x40_2_3.mtx 134 0
+spi_15x40_2_4.mtx
+../instances/insts/spi/type_2/spi_15x40_2_4.mtx 162 0
+spi_15x40_2_5.mtx
+../instances/insts/spi/type_2/spi_15x40_2_5.mtx 147 0
+spi_15x40_2_6.mtx
+../instances/insts/spi/type_2/spi_15x40_2_6.mtx 159 0
+spi_15x40_2_7.mtx
+../instances/insts/spi/type_2/spi_15x40_2_7.mtx 159 0
+spi_15x40_2_8.mtx
+../instances/insts/spi/type_2/spi_15x40_2_8.mtx 126 0
+spi_15x40_2_9.mtx
+../instances/insts/spi/type_2/spi_15x40_2_9.mtx 124 0
+spi_15x60_2_1.mtx
+../instances/insts/spi/type_2/spi_15x60_2_1.mtx 321 0
+spi_15x60_2_10.mtx
+../instances/insts/spi/type_2/spi_15x60_2_10.mtx 330 0
+spi_15x60_2_2.mtx
+../instances/insts/spi/type_2/spi_15x60_2_2.mtx 502 0
+spi_15x60_2_3.mtx
+../instances/insts/spi/type_2/spi_15x60_2_3.mtx 386 0
+spi_15x60_2_4.mtx
+../instances/insts/spi/type_2/spi_15x60_2_4.mtx 340 0
+spi_15x60_2_5.mtx
+../instances/insts/spi/type_2/spi_15x60_2_5.mtx 415 0
+spi_15x60_2_6.mtx
+../instances/insts/spi/type_2/spi_15x60_2_6.mtx 344 0
+spi_15x60_2_7.mtx
+../instances/insts/spi/type_2/spi_15x60_2_7.mtx 452 0
+spi_15x60_2_8.mtx
+../instances/insts/spi/type_2/spi_15x60_2_8.mtx 294 0
+spi_15x60_2_9.mtx
+../instances/insts/spi/type_2/spi_15x60_2_9.mtx 337 0
+spi_15x80_2_1.mtx
+../instances/insts/spi/type_2/spi_15x80_2_1.mtx 722 0
+spi_15x80_2_10.mtx
+../instances/insts/spi/type_2/spi_15x80_2_10.mtx 579 0
+spi_15x80_2_2.mtx
+../instances/insts/spi/type_2/spi_15x80_2_2.mtx 828 0
+spi_15x80_2_3.mtx
+../instances/insts/spi/type_2/spi_15x80_2_3.mtx 788 0
+spi_15x80_2_4.mtx
+../instances/insts/spi/type_2/spi_15x80_2_4.mtx 741 0
+spi_15x80_2_5.mtx
+../instances/insts/spi/type_2/spi_15x80_2_5.mtx 644 0
+spi_15x80_2_6.mtx
+../instances/insts/spi/type_2/spi_15x80_2_6.mtx 720 0
+spi_15x80_2_7.mtx
+../instances/insts/spi/type_2/spi_15x80_2_7.mtx 700 0
+spi_15x80_2_8.mtx
+../instances/insts/spi/type_2/spi_15x80_2_8.mtx 790 0
+spi_15x80_2_9.mtx
+../instances/insts/spi/type_2/spi_15x80_2_9.mtx 680 0
+spi_20x100_2_1.mtx
+../instances/insts/spi/type_2/spi_20x100_2_1.mtx 836 0
+spi_20x100_2_10.mtx
+../instances/insts/spi/type_2/spi_20x100_2_10.mtx 676 0
+spi_20x100_2_2.mtx
+../instances/insts/spi/type_2/spi_20x100_2_2.mtx 721 0
+spi_20x100_2_3.mtx
+../instances/insts/spi/type_2/spi_20x100_2_3.mtx 653 0
+spi_20x100_2_4.mtx
+../instances/insts/spi/type_2/spi_20x100_2_4.mtx 642 0
+spi_20x100_2_5.mtx
+../instances/insts/spi/type_2/spi_20x100_2_5.mtx 951 0
+spi_20x100_2_6.mtx
+../instances/insts/spi/type_2/spi_20x100_2_6.mtx 780 0
+spi_20x100_2_7.mtx
+../instances/insts/spi/type_2/spi_20x100_2_7.mtx 866 0
+spi_20x100_2_8.mtx
+../instances/insts/spi/type_2/spi_20x100_2_8.mtx 1018 0
+spi_20x100_2_9.mtx
+../instances/insts/spi/type_2/spi_20x100_2_9.mtx 725 0
+spi_20x120_2_1.mtx
+../instances/insts/spi/type_2/spi_20x120_2_1.mtx 1022 0
+spi_20x120_2_10.mtx
+../instances/insts/spi/type_2/spi_20x120_2_10.mtx 1344 0
+spi_20x120_2_2.mtx
+../instances/insts/spi/type_2/spi_20x120_2_2.mtx 1174 0
+spi_20x120_2_3.mtx
+../instances/insts/spi/type_2/spi_20x120_2_3.mtx 1475 0
+spi_20x120_2_4.mtx
+../instances/insts/spi/type_2/spi_20x120_2_4.mtx 1143 0
+spi_20x120_2_5.mtx
+../instances/insts/spi/type_2/spi_20x120_2_5.mtx 1115 0
+spi_20x120_2_6.mtx
+../instances/insts/spi/type_2/spi_20x120_2_6.mtx 1125 0
+spi_20x120_2_7.mtx
+../instances/insts/spi/type_2/spi_20x120_2_7.mtx 1391 0
+spi_20x120_2_8.mtx
+../instances/insts/spi/type_2/spi_20x120_2_8.mtx 1293 0
+spi_20x120_2_9.mtx
+../instances/insts/spi/type_2/spi_20x120_2_9.mtx 1543 0
+spi_20x20_2_1.mtx
+../instances/insts/spi/type_2/spi_20x20_2_1.mtx 23 0
+spi_20x20_2_10.mtx
+../instances/insts/spi/type_2/spi_20x20_2_10.mtx 31 0
+spi_20x20_2_2.mtx
+../instances/insts/spi/type_2/spi_20x20_2_2.mtx 34 0
+spi_20x20_2_3.mtx
+../instances/insts/spi/type_2/spi_20x20_2_3.mtx 25 0
+spi_20x20_2_4.mtx
+../instances/insts/spi/type_2/spi_20x20_2_4.mtx 20 0
+spi_20x20_2_5.mtx
+../instances/insts/spi/type_2/spi_20x20_2_5.mtx 31 0
+spi_20x20_2_6.mtx
+../instances/insts/spi/type_2/spi_20x20_2_6.mtx 47 0
+spi_20x20_2_7.mtx
+../instances/insts/spi/type_2/spi_20x20_2_7.mtx 20 0
+spi_20x20_2_8.mtx
+../instances/insts/spi/type_2/spi_20x20_2_8.mtx 27 0
+spi_20x20_2_9.mtx
+../instances/insts/spi/type_2/spi_20x20_2_9.mtx 28 0
+spi_20x40_2_1.mtx
+../instances/insts/spi/type_2/spi_20x40_2_1.mtx 132 0
+spi_20x40_2_10.mtx
+../instances/insts/spi/type_2/spi_20x40_2_10.mtx 83 0
+spi_20x40_2_2.mtx
+../instances/insts/spi/type_2/spi_20x40_2_2.mtx 92 0
+spi_20x40_2_3.mtx
+../instances/insts/spi/type_2/spi_20x40_2_3.mtx 72 0
+spi_20x40_2_4.mtx
+../instances/insts/spi/type_2/spi_20x40_2_4.mtx 156 0
+spi_20x40_2_5.mtx
+../instances/insts/spi/type_2/spi_20x40_2_5.mtx 83 0
+spi_20x40_2_6.mtx
+../instances/insts/spi/type_2/spi_20x40_2_6.mtx 108 0
+spi_20x40_2_7.mtx
+../instances/insts/spi/type_2/spi_20x40_2_7.mtx 76 0
+spi_20x40_2_8.mtx
+../instances/insts/spi/type_2/spi_20x40_2_8.mtx 81 0
+spi_20x40_2_9.mtx
+../instances/insts/spi/type_2/spi_20x40_2_9.mtx 80 0
+spi_20x60_2_1.mtx
+../instances/insts/spi/type_2/spi_20x60_2_1.mtx 218 0
+spi_20x60_2_10.mtx
+../instances/insts/spi/type_2/spi_20x60_2_10.mtx 217 0
+spi_20x60_2_2.mtx
+../instances/insts/spi/type_2/spi_20x60_2_2.mtx 295 0
+spi_20x60_2_3.mtx
+../instances/insts/spi/type_2/spi_20x60_2_3.mtx 327 0
+spi_20x60_2_4.mtx
+../instances/insts/spi/type_2/spi_20x60_2_4.mtx 289 0
+spi_20x60_2_5.mtx
+../instances/insts/spi/type_2/spi_20x60_2_5.mtx 274 0
+spi_20x60_2_6.mtx
+../instances/insts/spi/type_2/spi_20x60_2_6.mtx 204 0
+spi_20x60_2_7.mtx
+../instances/insts/spi/type_2/spi_20x60_2_7.mtx 292 0
+spi_20x60_2_8.mtx
+../instances/insts/spi/type_2/spi_20x60_2_8.mtx 272 0
+spi_20x60_2_9.mtx
+../instances/insts/spi/type_2/spi_20x60_2_9.mtx 271 0
+spi_20x80_2_1.mtx
+../instances/insts/spi/type_2/spi_20x80_2_1.mtx 610 0
+spi_20x80_2_10.mtx
+../instances/insts/spi/type_2/spi_20x80_2_10.mtx 626 0
+spi_20x80_2_2.mtx
+../instances/insts/spi/type_2/spi_20x80_2_2.mtx 545 0
+spi_20x80_2_3.mtx
+../instances/insts/spi/type_2/spi_20x80_2_3.mtx 542 0
+spi_20x80_2_4.mtx
+../instances/insts/spi/type_2/spi_20x80_2_4.mtx 508 0
+spi_20x80_2_5.mtx
+../instances/insts/spi/type_2/spi_20x80_2_5.mtx 474 0
+spi_20x80_2_6.mtx
+../instances/insts/spi/type_2/spi_20x80_2_6.mtx 552 0
+spi_20x80_2_7.mtx
+../instances/insts/spi/type_2/spi_20x80_2_7.mtx 482 0
+spi_20x80_2_8.mtx
+../instances/insts/spi/type_2/spi_20x80_2_8.mtx 403 0
+spi_20x80_2_9.mtx
+../instances/insts/spi/type_2/spi_20x80_2_9.mtx 715 0
+spi_25x100_2_1.mtx
+../instances/insts/spi/type_2/spi_25x100_2_1.mtx 603 0
+spi_25x100_2_10.mtx
+../instances/insts/spi/type_2/spi_25x100_2_10.mtx 701 0
+spi_25x100_2_2.mtx
+../instances/insts/spi/type_2/spi_25x100_2_2.mtx 642 0
+spi_25x100_2_3.mtx
+../instances/insts/spi/type_2/spi_25x100_2_3.mtx 664 0
+spi_25x100_2_4.mtx
+../instances/insts/spi/type_2/spi_25x100_2_4.mtx 410 0
+spi_25x100_2_5.mtx
+../instances/insts/spi/type_2/spi_25x100_2_5.mtx 656 0
+spi_25x100_2_6.mtx
+../instances/insts/spi/type_2/spi_25x100_2_6.mtx 493 0
+spi_25x100_2_7.mtx
+../instances/insts/spi/type_2/spi_25x100_2_7.mtx 522 0
+spi_25x100_2_8.mtx
+../instances/insts/spi/type_2/spi_25x100_2_8.mtx 595 0
+spi_25x100_2_9.mtx
+../instances/insts/spi/type_2/spi_25x100_2_9.mtx 530 0
+spi_25x150_2_1.mtx
+../instances/insts/spi/type_2/spi_25x150_2_1.mtx 1329 0
+spi_25x150_2_10.mtx
+../instances/insts/spi/type_2/spi_25x150_2_10.mtx 1352 0
+spi_25x150_2_2.mtx
+../instances/insts/spi/type_2/spi_25x150_2_2.mtx 1350 0
+spi_25x150_2_3.mtx
+../instances/insts/spi/type_2/spi_25x150_2_3.mtx 1661 0
+spi_25x150_2_4.mtx
+../instances/insts/spi/type_2/spi_25x150_2_4.mtx 1531 0
+spi_25x150_2_5.mtx
+../instances/insts/spi/type_2/spi_25x150_2_5.mtx 1318 0
+spi_25x150_2_6.mtx
+../instances/insts/spi/type_2/spi_25x150_2_6.mtx 1294 0
+spi_25x150_2_7.mtx
+../instances/insts/spi/type_2/spi_25x150_2_7.mtx 1182 0
+spi_25x150_2_8.mtx
+../instances/insts/spi/type_2/spi_25x150_2_8.mtx 1610 0
+spi_25x150_2_9.mtx
+../instances/insts/spi/type_2/spi_25x150_2_9.mtx 1176 0
+spi_25x200_2_1.mtx
+../instances/insts/spi/type_2/spi_25x200_2_1.mtx 1967 0
+spi_25x200_2_10.mtx
+../instances/insts/spi/type_2/spi_25x200_2_10.mtx 3185 0
+spi_25x200_2_2.mtx
+../instances/insts/spi/type_2/spi_25x200_2_2.mtx 2520 0
+spi_25x200_2_3.mtx
+../instances/insts/spi/type_2/spi_25x200_2_3.mtx 2560 0
+spi_25x200_2_4.mtx
+../instances/insts/spi/type_2/spi_25x200_2_4.mtx 2722 0
+spi_25x200_2_5.mtx
+../instances/insts/spi/type_2/spi_25x200_2_5.mtx 2385 0
+spi_25x200_2_6.mtx
+../instances/insts/spi/type_2/spi_25x200_2_6.mtx 2846 0
+spi_25x200_2_7.mtx
+../instances/insts/spi/type_2/spi_25x200_2_7.mtx 2014 0
+spi_25x200_2_8.mtx
+../instances/insts/spi/type_2/spi_25x200_2_8.mtx 2671 0
+spi_25x200_2_9.mtx
+../instances/insts/spi/type_2/spi_25x200_2_9.mtx 2497 0
+spi_25x40_2_1.mtx
+../instances/insts/spi/type_2/spi_25x40_2_1.mtx 85 0
+spi_25x40_2_10.mtx
+../instances/insts/spi/type_2/spi_25x40_2_10.mtx 59 0
+spi_25x40_2_2.mtx
+../instances/insts/spi/type_2/spi_25x40_2_2.mtx 77 0
+spi_25x40_2_3.mtx
+../instances/insts/spi/type_2/spi_25x40_2_3.mtx 60 0
+spi_25x40_2_4.mtx
+../instances/insts/spi/type_2/spi_25x40_2_4.mtx 84 0
+spi_25x40_2_5.mtx
+../instances/insts/spi/type_2/spi_25x40_2_5.mtx 85 0
+spi_25x40_2_6.mtx
+../instances/insts/spi/type_2/spi_25x40_2_6.mtx 124 0
+spi_25x40_2_7.mtx
+../instances/insts/spi/type_2/spi_25x40_2_7.mtx 106 0
+spi_25x40_2_8.mtx
+../instances/insts/spi/type_2/spi_25x40_2_8.mtx 64 0
+spi_25x40_2_9.mtx
+../instances/insts/spi/type_2/spi_25x40_2_9.mtx 67 0
+spi_25x80_2_1.mtx
+../instances/insts/spi/type_2/spi_25x80_2_1.mtx 397 0
+spi_25x80_2_10.mtx
+../instances/insts/spi/type_2/spi_25x80_2_10.mtx 453 0
+spi_25x80_2_2.mtx
+../instances/insts/spi/type_2/spi_25x80_2_2.mtx 373 0
+spi_25x80_2_3.mtx
+../instances/insts/spi/type_2/spi_25x80_2_3.mtx 339 0
+spi_25x80_2_4.mtx
+../instances/insts/spi/type_2/spi_25x80_2_4.mtx 319 0
+spi_25x80_2_5.mtx
+../instances/insts/spi/type_2/spi_25x80_2_5.mtx 401 0
+spi_25x80_2_6.mtx
+../instances/insts/spi/type_2/spi_25x80_2_6.mtx 416 0
+spi_25x80_2_7.mtx
+../instances/insts/spi/type_2/spi_25x80_2_7.mtx 202 0
+spi_25x80_2_8.mtx
+../instances/insts/spi/type_2/spi_25x80_2_8.mtx 368 0
+spi_25x80_2_9.mtx
+../instances/insts/spi/type_2/spi_25x80_2_9.mtx 421 0
+mpi_100x1000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_1.mtx 5726 0
+mpi_100x1000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_10.mtx 5500 0
+mpi_100x1000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_2.mtx 4959 0
+mpi_100x1000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_3.mtx 5760 0
+mpi_100x1000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_4.mtx 5375 0
+mpi_100x1000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_5.mtx 5825 0
+mpi_100x1000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_6.mtx 5796 0
+mpi_100x1000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_7.mtx 5105 0
+mpi_100x1000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_8.mtx 5594 0
+mpi_100x1000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_100x1000_1_9.mtx 5626 0
+mpi_100x100_1_1.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_1.mtx 2559 0
+mpi_100x100_1_10.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_10.mtx 2619 0
+mpi_100x100_1_2.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_2.mtx 2603 0
+mpi_100x100_1_3.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_3.mtx 2779 0
+mpi_100x100_1_4.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_4.mtx 2228 0
+mpi_100x100_1_5.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_5.mtx 2446 0
+mpi_100x100_1_6.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_6.mtx 2716 0
+mpi_100x100_1_7.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_7.mtx 2514 0
+mpi_100x100_1_8.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_8.mtx 2474 0
+mpi_100x100_1_9.mtx
+../instances/insts/mpi/type_1/mpi_100x100_1_9.mtx 2462 0
+mpi_100x2000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_1.mtx 6567 0
+mpi_100x2000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_10.mtx 6844 0
+mpi_100x2000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_2.mtx 5592 0
+mpi_100x2000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_3.mtx 6006 0
+mpi_100x2000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_4.mtx 5460 0
+mpi_100x2000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_5.mtx 6236 0
+mpi_100x2000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_6.mtx 6100 0
+mpi_100x2000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_7.mtx 6375 0
+mpi_100x2000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_8.mtx 6332 0
+mpi_100x2000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_100x2000_1_9.mtx 6844 0
+mpi_100x250_1_1.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_1.mtx 3955 0
+mpi_100x250_1_10.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_10.mtx 3933 0
+mpi_100x250_1_2.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_2.mtx 3785 0
+mpi_100x250_1_3.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_3.mtx 3560 0
+mpi_100x250_1_4.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_4.mtx 3573 0
+mpi_100x250_1_5.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_5.mtx 3545 0
+mpi_100x250_1_6.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_6.mtx 4212 0
+mpi_100x250_1_7.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_7.mtx 3717 0
+mpi_100x250_1_8.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_8.mtx 3687 0
+mpi_100x250_1_9.mtx
+../instances/insts/mpi/type_1/mpi_100x250_1_9.mtx 4054 0
+mpi_100x500_1_1.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_1.mtx 4528 0
+mpi_100x500_1_10.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_10.mtx 4675 0
+mpi_100x500_1_2.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_2.mtx 5151 0
+mpi_100x500_1_3.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_3.mtx 4514 0
+mpi_100x500_1_4.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_4.mtx 4976 0
+mpi_100x500_1_5.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_5.mtx 4636 0
+mpi_100x500_1_6.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_6.mtx 4808 0
+mpi_100x500_1_7.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_7.mtx 4673 0
+mpi_100x500_1_8.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_8.mtx 4492 0
+mpi_100x500_1_9.mtx
+../instances/insts/mpi/type_1/mpi_100x500_1_9.mtx 4375 0
+mpi_100x750_1_1.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_1.mtx 5213 0
+mpi_100x750_1_10.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_10.mtx 5289 0
+mpi_100x750_1_2.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_2.mtx 5211 0
+mpi_100x750_1_3.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_3.mtx 5348 0
+mpi_100x750_1_4.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_4.mtx 5343 0
+mpi_100x750_1_5.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_5.mtx 5363 0
+mpi_100x750_1_6.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_6.mtx 5679 0
+mpi_100x750_1_7.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_7.mtx 5180 0
+mpi_100x750_1_8.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_8.mtx 4939 0
+mpi_100x750_1_9.mtx
+../instances/insts/mpi/type_1/mpi_100x750_1_9.mtx 5155 0
+mpi_150x1000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_1.mtx 7350 0
+mpi_150x1000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_10.mtx 7777 0
+mpi_150x1000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_2.mtx 6975 0
+mpi_150x1000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_3.mtx 7172 0
+mpi_150x1000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_4.mtx 7632 0
+mpi_150x1000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_5.mtx 8051 0
+mpi_150x1000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_6.mtx 7619 0
+mpi_150x1000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_7.mtx 7893 0
+mpi_150x1000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_8.mtx 9082 0
+mpi_150x1000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_150x1000_1_9.mtx 7785 0
+mpi_150x150_1_1.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_1.mtx 3827 0
+mpi_150x150_1_10.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_10.mtx 3739 0
+mpi_150x150_1_2.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_2.mtx 3854 0
+mpi_150x150_1_3.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_3.mtx 3945 0
+mpi_150x150_1_4.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_4.mtx 3877 0
+mpi_150x150_1_5.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_5.mtx 3636 0
+mpi_150x150_1_6.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_6.mtx 3572 0
+mpi_150x150_1_7.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_7.mtx 3643 0
+mpi_150x150_1_8.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_8.mtx 3732 0
+mpi_150x150_1_9.mtx
+../instances/insts/mpi/type_1/mpi_150x150_1_9.mtx 3485 0
+mpi_150x2000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_1.mtx 9120 0
+mpi_150x2000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_10.mtx 9000 0
+mpi_150x2000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_2.mtx 8363 0
+mpi_150x2000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_3.mtx 8011 0
+mpi_150x2000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_4.mtx 9213 0
+mpi_150x2000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_5.mtx 9085 0
+mpi_150x2000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_6.mtx 8696 0
+mpi_150x2000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_7.mtx 9195 0
+mpi_150x2000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_8.mtx 9113 0
+mpi_150x2000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_150x2000_1_9.mtx 8436 0
+mpi_150x250_1_1.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_1.mtx 4756 0
+mpi_150x250_1_10.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_10.mtx 4809 0
+mpi_150x250_1_2.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_2.mtx 4878 0
+mpi_150x250_1_3.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_3.mtx 4662 0
+mpi_150x250_1_4.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_4.mtx 4815 0
+mpi_150x250_1_5.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_5.mtx 5261 0
+mpi_150x250_1_6.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_6.mtx 4825 0
+mpi_150x250_1_7.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_7.mtx 4495 0
+mpi_150x250_1_8.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_8.mtx 5233 0
+mpi_150x250_1_9.mtx
+../instances/insts/mpi/type_1/mpi_150x250_1_9.mtx 4576 0
+mpi_150x3000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_1.mtx 8693 0
+mpi_150x3000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_10.mtx 9366 0
+mpi_150x3000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_2.mtx 9095 0
+mpi_150x3000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_3.mtx 8625 0
+mpi_150x3000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_4.mtx 9161 0
+mpi_150x3000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_5.mtx 9210 0
+mpi_150x3000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_6.mtx 9311 0
+mpi_150x3000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_7.mtx 8568 0
+mpi_150x3000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_8.mtx 9079 0
+mpi_150x3000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_150x3000_1_9.mtx 8754 0
+mpi_150x500_1_1.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_1.mtx 6327 0
+mpi_150x500_1_10.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_10.mtx 6482 0
+mpi_150x500_1_2.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_2.mtx 6226 0
+mpi_150x500_1_3.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_3.mtx 6519 0
+mpi_150x500_1_4.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_4.mtx 5767 0
+mpi_150x500_1_5.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_5.mtx 6296 0
+mpi_150x500_1_6.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_6.mtx 6025 0
+mpi_150x500_1_7.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_7.mtx 6349 0
+mpi_150x500_1_8.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_8.mtx 5689 0
+mpi_150x500_1_9.mtx
+../instances/insts/mpi/type_1/mpi_150x500_1_9.mtx 6693 0
+mpi_150x750_1_1.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_1.mtx 7065 0
+mpi_150x750_1_10.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_10.mtx 7527 0
+mpi_150x750_1_2.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_2.mtx 7594 0
+mpi_150x750_1_3.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_3.mtx 6596 0
+mpi_150x750_1_4.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_4.mtx 7411 0
+mpi_150x750_1_5.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_5.mtx 6435 0
+mpi_150x750_1_6.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_6.mtx 7412 0
+mpi_150x750_1_7.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_7.mtx 6989 0
+mpi_150x750_1_8.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_8.mtx 7140 0
+mpi_150x750_1_9.mtx
+../instances/insts/mpi/type_1/mpi_150x750_1_9.mtx 7661 0
+mpi_200x1000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_1.mtx 9239 1
+mpi_200x1000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_10.mtx 8998 1
+mpi_200x1000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_2.mtx 9988 1
+mpi_200x1000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_3.mtx 9170 1
+mpi_200x1000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_4.mtx 9591 1
+mpi_200x1000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_5.mtx 9497 1
+mpi_200x1000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_6.mtx 9692 1
+mpi_200x1000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_7.mtx 9294 1
+mpi_200x1000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_8.mtx 9443 1
+mpi_200x1000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_200x1000_1_9.mtx 9827 1
+mpi_200x2000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_1.mtx 11504 1
+mpi_200x2000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_10.mtx 11029 0
+mpi_200x2000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_2.mtx 11174 1
+mpi_200x2000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_3.mtx 11252 1
+mpi_200x2000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_4.mtx 11628 1
+mpi_200x2000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_5.mtx 11537 1
+mpi_200x2000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_6.mtx 11238 1
+mpi_200x2000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_7.mtx 11094 1
+mpi_200x2000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_8.mtx 10262 1
+mpi_200x2000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_200x2000_1_9.mtx 11266 1
+mpi_200x250_1_1.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_1.mtx 5637 0
+mpi_200x250_1_10.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_10.mtx 5789 0
+mpi_200x250_1_2.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_2.mtx 5273 0
+mpi_200x250_1_3.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_3.mtx 5230 0
+mpi_200x250_1_4.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_4.mtx 5164 0
+mpi_200x250_1_5.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_5.mtx 5211 0
+mpi_200x250_1_6.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_6.mtx 5367 0
+mpi_200x250_1_7.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_7.mtx 5745 0
+mpi_200x250_1_8.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_8.mtx 5766 0
+mpi_200x250_1_9.mtx
+../instances/insts/mpi/type_1/mpi_200x250_1_9.mtx 5571 0
+mpi_200x3000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_1.mtx 11908 1
+mpi_200x3000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_10.mtx 11618 1
+mpi_200x3000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_2.mtx 11765 1
+mpi_200x3000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_3.mtx 11578 1
+mpi_200x3000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_4.mtx 12064 1
+mpi_200x3000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_5.mtx 12080 1
+mpi_200x3000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_6.mtx 12124 1
+mpi_200x3000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_7.mtx 11483 1
+mpi_200x3000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_8.mtx 11699 1
+mpi_200x3000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_200x3000_1_9.mtx 11588 1
+mpi_200x500_1_1.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_1.mtx 7602 0
+mpi_200x500_1_10.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_10.mtx 7507 0
+mpi_200x500_1_2.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_2.mtx 7102 0
+mpi_200x500_1_3.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_3.mtx 7118 1
+mpi_200x500_1_4.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_4.mtx 7841 1
+mpi_200x500_1_5.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_5.mtx 7546 1
+mpi_200x500_1_6.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_6.mtx 7456 0
+mpi_200x500_1_7.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_7.mtx 7670 0
+mpi_200x500_1_8.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_8.mtx 8169 1
+mpi_200x500_1_9.mtx
+../instances/insts/mpi/type_1/mpi_200x500_1_9.mtx 8145 0
+mpi_200x750_1_1.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_1.mtx 8778 1
+mpi_200x750_1_10.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_10.mtx 8506 1
+mpi_200x750_1_2.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_2.mtx 8656 1
+mpi_200x750_1_3.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_3.mtx 8473 1
+mpi_200x750_1_4.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_4.mtx 8938 1
+mpi_200x750_1_5.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_5.mtx 8893 1
+mpi_200x750_1_6.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_6.mtx 8712 1
+mpi_200x750_1_7.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_7.mtx 9017 0
+mpi_200x750_1_8.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_8.mtx 8497 0
+mpi_200x750_1_9.mtx
+../instances/insts/mpi/type_1/mpi_200x750_1_9.mtx 8999 0
+mpi_250x1000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_1.mtx 10997 2
+mpi_250x1000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_10.mtx 11719 3
+mpi_250x1000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_2.mtx 11588 3
+mpi_250x1000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_3.mtx 11091 3
+mpi_250x1000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_4.mtx 11203 2
+mpi_250x1000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_5.mtx 10634 2
+mpi_250x1000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_6.mtx 11363 3
+mpi_250x1000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_7.mtx 11058 2
+mpi_250x1000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_8.mtx 11355 2
+mpi_250x1000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_250x1000_1_9.mtx 11324 3
+mpi_250x2000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_1.mtx 12922 2
+mpi_250x2000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_10.mtx 13887 3
+mpi_250x2000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_2.mtx 12590 3
+mpi_250x2000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_3.mtx 13405 2
+mpi_250x2000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_4.mtx 13635 2
+mpi_250x2000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_5.mtx 12650 2
+mpi_250x2000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_6.mtx 13459 2
+mpi_250x2000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_7.mtx 12899 3
+mpi_250x2000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_8.mtx 13701 3
+mpi_250x2000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_250x2000_1_9.mtx 12502 3
+mpi_250x250_1_1.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_1.mtx 6013 0
+mpi_250x250_1_10.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_10.mtx 6591 1
+mpi_250x250_1_2.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_2.mtx 6450 1
+mpi_250x250_1_3.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_3.mtx 5908 1
+mpi_250x250_1_4.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_4.mtx 6538 1
+mpi_250x250_1_5.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_5.mtx 6160 1
+mpi_250x250_1_6.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_6.mtx 6233 0
+mpi_250x250_1_7.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_7.mtx 6023 1
+mpi_250x250_1_8.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_8.mtx 6115 1
+mpi_250x250_1_9.mtx
+../instances/insts/mpi/type_1/mpi_250x250_1_9.mtx 6306 1
+mpi_250x3000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_1.mtx 14775 3
+mpi_250x3000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_10.mtx 14054 3
+mpi_250x3000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_2.mtx 13666 3
+mpi_250x3000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_3.mtx 14968 3
+mpi_250x3000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_4.mtx 15374 3
+mpi_250x3000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_5.mtx 13780 2
+mpi_250x3000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_6.mtx 14561 3
+mpi_250x3000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_7.mtx 14116 3
+mpi_250x3000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_8.mtx 14104 3
+mpi_250x3000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_250x3000_1_9.mtx 14392 2
+mpi_250x5000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_1.mtx 15793 2
+mpi_250x5000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_10.mtx 15617 3
+mpi_250x5000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_2.mtx 14800 2
+mpi_250x5000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_3.mtx 15407 2
+mpi_250x5000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_4.mtx 15446 2
+mpi_250x5000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_5.mtx 14718 2
+mpi_250x5000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_6.mtx 15179 2
+mpi_250x5000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_7.mtx 16491 2
+mpi_250x5000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_8.mtx 15688 2
+mpi_250x5000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_250x5000_1_9.mtx 13737 2
+mpi_250x500_1_1.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_1.mtx 8590 2
+mpi_250x500_1_10.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_10.mtx 8733 2
+mpi_250x500_1_2.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_2.mtx 8337 3
+mpi_250x500_1_3.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_3.mtx 8839 2
+mpi_250x500_1_4.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_4.mtx 8593 2
+mpi_250x500_1_5.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_5.mtx 8427 3
+mpi_250x500_1_6.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_6.mtx 8716 2
+mpi_250x500_1_7.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_7.mtx 8860 2
+mpi_250x500_1_8.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_8.mtx 8381 2
+mpi_250x500_1_9.mtx
+../instances/insts/mpi/type_1/mpi_250x500_1_9.mtx 9022 2
+mpi_250x750_1_1.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_1.mtx 10386 3
+mpi_250x750_1_10.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_10.mtx 10574 2
+mpi_250x750_1_2.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_2.mtx 9548 3
+mpi_250x750_1_3.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_3.mtx 9976 2
+mpi_250x750_1_4.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_4.mtx 9746 2
+mpi_250x750_1_5.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_5.mtx 9772 3
+mpi_250x750_1_6.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_6.mtx 10175 3
+mpi_250x750_1_7.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_7.mtx 10371 3
+mpi_250x750_1_8.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_8.mtx 10264 3
+mpi_250x750_1_9.mtx
+../instances/insts/mpi/type_1/mpi_250x750_1_9.mtx 10282 2
+mpi_300x1000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_1.mtx 12128 4
+mpi_300x1000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_10.mtx 12190 4
+mpi_300x1000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_2.mtx 12465 4
+mpi_300x1000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_3.mtx 12826 4
+mpi_300x1000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_4.mtx 12248 4
+mpi_300x1000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_5.mtx 12795 3
+mpi_300x1000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_6.mtx 12543 3
+mpi_300x1000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_7.mtx 12384 3
+mpi_300x1000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_8.mtx 12576 4
+mpi_300x1000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_300x1000_1_9.mtx 11879 3
+mpi_300x2000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_1.mtx 15509 4
+mpi_300x2000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_10.mtx 14788 3
+mpi_300x2000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_2.mtx 15629 4
+mpi_300x2000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_3.mtx 15536 4
+mpi_300x2000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_4.mtx 15011 4
+mpi_300x2000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_5.mtx 15487 3
+mpi_300x2000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_6.mtx 15936 4
+mpi_300x2000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_7.mtx 15318 4
+mpi_300x2000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_8.mtx 15737 4
+mpi_300x2000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_300x2000_1_9.mtx 15586 4
+mpi_300x3000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_1.mtx 17194 3
+mpi_300x3000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_10.mtx 16458 4
+mpi_300x3000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_2.mtx 16471 3
+mpi_300x3000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_3.mtx 17076 4
+mpi_300x3000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_4.mtx 15999 3
+mpi_300x3000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_5.mtx 17181 3
+mpi_300x3000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_6.mtx 17289 4
+mpi_300x3000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_7.mtx 16337 4
+mpi_300x3000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_8.mtx 16486 3
+mpi_300x3000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_300x3000_1_9.mtx 16695 4
+mpi_300x300_1_1.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_1.mtx 7228 1
+mpi_300x300_1_10.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_10.mtx 7382 1
+mpi_300x300_1_2.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_2.mtx 8007 2
+mpi_300x300_1_3.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_3.mtx 7493 2
+mpi_300x300_1_4.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_4.mtx 7156 1
+mpi_300x300_1_5.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_5.mtx 6976 2
+mpi_300x300_1_6.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_6.mtx 7738 2
+mpi_300x300_1_7.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_7.mtx 8040 1
+mpi_300x300_1_8.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_8.mtx 7490 2
+mpi_300x300_1_9.mtx
+../instances/insts/mpi/type_1/mpi_300x300_1_9.mtx 8107 1
+mpi_300x5000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_1.mtx 17802 4
+mpi_300x5000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_10.mtx 17725 4
+mpi_300x5000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_2.mtx 17765 3
+mpi_300x5000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_3.mtx 18457 5
+mpi_300x5000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_4.mtx 17045 4
+mpi_300x5000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_5.mtx 18295 4
+mpi_300x5000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_6.mtx 17927 4
+mpi_300x5000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_7.mtx 18784 5
+mpi_300x5000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_8.mtx 18180 3
+mpi_300x5000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_300x5000_1_9.mtx 17073 4
+mpi_300x500_1_1.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_1.mtx 9464 2
+mpi_300x500_1_10.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_10.mtx 9682 2
+mpi_300x500_1_2.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_2.mtx 10656 4
+mpi_300x500_1_3.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_3.mtx 9542 3
+mpi_300x500_1_4.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_4.mtx 9603 2
+mpi_300x500_1_5.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_5.mtx 9083 2
+mpi_300x500_1_6.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_6.mtx 9782 3
+mpi_300x500_1_7.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_7.mtx 9090 3
+mpi_300x500_1_8.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_8.mtx 9855 3
+mpi_300x500_1_9.mtx
+../instances/insts/mpi/type_1/mpi_300x500_1_9.mtx 10294 4
+mpi_300x750_1_1.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_1.mtx 12032 3
+mpi_300x750_1_10.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_10.mtx 10432 4
+mpi_300x750_1_2.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_2.mtx 11271 3
+mpi_300x750_1_3.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_3.mtx 11453 4
+mpi_300x750_1_4.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_4.mtx 11527 3
+mpi_300x750_1_5.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_5.mtx 10990 3
+mpi_300x750_1_6.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_6.mtx 11568 4
+mpi_300x750_1_7.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_7.mtx 11556 3
+mpi_300x750_1_8.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_8.mtx 12054 4
+mpi_300x750_1_9.mtx
+../instances/insts/mpi/type_1/mpi_300x750_1_9.mtx 12117 4
+mpi_50x1000_1_1.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_1.mtx 3484 0
+mpi_50x1000_1_10.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_10.mtx 3353 0
+mpi_50x1000_1_2.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_2.mtx 2847 0
+mpi_50x1000_1_3.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_3.mtx 3036 0
+mpi_50x1000_1_4.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_4.mtx 3399 0
+mpi_50x1000_1_5.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_5.mtx 3024 0
+mpi_50x1000_1_6.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_6.mtx 3170 0
+mpi_50x1000_1_7.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_7.mtx 2941 0
+mpi_50x1000_1_8.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_8.mtx 3051 0
+mpi_50x1000_1_9.mtx
+../instances/insts/mpi/type_1/mpi_50x1000_1_9.mtx 3048 0
+mpi_50x100_1_1.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_1.mtx 1536 0
+mpi_50x100_1_10.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_10.mtx 1593 0
+mpi_50x100_1_2.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_2.mtx 1625 0
+mpi_50x100_1_3.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_3.mtx 1506 0
+mpi_50x100_1_4.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_4.mtx 1597 0
+mpi_50x100_1_5.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_5.mtx 1754 0
+mpi_50x100_1_6.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_6.mtx 1647 0
+mpi_50x100_1_7.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_7.mtx 1660 0
+mpi_50x100_1_8.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_8.mtx 1823 0
+mpi_50x100_1_9.mtx
+../instances/insts/mpi/type_1/mpi_50x100_1_9.mtx 1785 0
+mpi_50x250_1_1.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_1.mtx 2485 0
+mpi_50x250_1_10.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_10.mtx 2523 0
+mpi_50x250_1_2.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_2.mtx 2748 0
+mpi_50x250_1_3.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_3.mtx 2206 0
+mpi_50x250_1_4.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_4.mtx 2650 0
+mpi_50x250_1_5.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_5.mtx 2075 0
+mpi_50x250_1_6.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_6.mtx 2179 0
+mpi_50x250_1_7.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_7.mtx 2568 0
+mpi_50x250_1_8.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_8.mtx 2135 0
+mpi_50x250_1_9.mtx
+../instances/insts/mpi/type_1/mpi_50x250_1_9.mtx 2232 0
+mpi_50x500_1_1.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_1.mtx 2566 0
+mpi_50x500_1_10.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_10.mtx 2608 0
+mpi_50x500_1_2.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_2.mtx 2938 0
+mpi_50x500_1_3.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_3.mtx 2807 0
+mpi_50x500_1_4.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_4.mtx 2691 0
+mpi_50x500_1_5.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_5.mtx 2904 0
+mpi_50x500_1_6.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_6.mtx 3022 0
+mpi_50x500_1_7.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_7.mtx 2497 0
+mpi_50x500_1_8.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_8.mtx 2869 0
+mpi_50x500_1_9.mtx
+../instances/insts/mpi/type_1/mpi_50x500_1_9.mtx 2986 0
+mpi_50x50_1_1.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_1.mtx 1127 0
+mpi_50x50_1_10.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_10.mtx 1200 0
+mpi_50x50_1_2.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_2.mtx 1335 0
+mpi_50x50_1_3.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_3.mtx 1087 0
+mpi_50x50_1_4.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_4.mtx 1393 0
+mpi_50x50_1_5.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_5.mtx 1120 0
+mpi_50x50_1_6.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_6.mtx 1082 0
+mpi_50x50_1_7.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_7.mtx 959 0
+mpi_50x50_1_8.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_8.mtx 1259 0
+mpi_50x50_1_9.mtx
+../instances/insts/mpi/type_1/mpi_50x50_1_9.mtx 1719 0
+mpi_50x750_1_1.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_1.mtx 3123 0
+mpi_50x750_1_10.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_10.mtx 2673 0
+mpi_50x750_1_2.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_2.mtx 2954 0
+mpi_50x750_1_3.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_3.mtx 3009 0
+mpi_50x750_1_4.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_4.mtx 3136 0
+mpi_50x750_1_5.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_5.mtx 2932 0
+mpi_50x750_1_6.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_6.mtx 2907 0
+mpi_50x750_1_7.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_7.mtx 3429 0
+mpi_50x750_1_8.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_8.mtx 2824 0
+mpi_50x750_1_9.mtx
+../instances/insts/mpi/type_1/mpi_50x750_1_9.mtx 3082 0
+mpi_100x100_2_1.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_1.mtx 181 0
+mpi_100x100_2_10.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_10.mtx 136 0
+mpi_100x100_2_2.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_2.mtx 158 0
+mpi_100x100_2_3.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_3.mtx 135 0
+mpi_100x100_2_4.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_4.mtx 119 0
+mpi_100x100_2_5.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_5.mtx 143 0
+mpi_100x100_2_6.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_6.mtx 120 0
+mpi_100x100_2_7.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_7.mtx 173 0
+mpi_100x100_2_8.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_8.mtx 149 0
+mpi_100x100_2_9.mtx
+../instances/insts/mpi/type_2/mpi_100x100_2_9.mtx 141 0
+mpi_100x250_2_1.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_1.mtx 952 0
+mpi_100x250_2_10.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_10.mtx 791 0
+mpi_100x250_2_2.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_2.mtx 1023 0
+mpi_100x250_2_3.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_3.mtx 891 0
+mpi_100x250_2_4.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_4.mtx 957 0
+mpi_100x250_2_5.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_5.mtx 960 0
+mpi_100x250_2_6.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_6.mtx 704 0
+mpi_100x250_2_7.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_7.mtx 933 0
+mpi_100x250_2_8.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_8.mtx 813 0
+mpi_100x250_2_9.mtx
+../instances/insts/mpi/type_2/mpi_100x250_2_9.mtx 977 0
+mpi_100x500_2_1.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_1.mtx 4280 0
+mpi_100x500_2_10.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_10.mtx 3547 0
+mpi_100x500_2_2.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_2.mtx 3952 0
+mpi_100x500_2_3.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_3.mtx 3834 0
+mpi_100x500_2_4.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_4.mtx 4526 0
+mpi_100x500_2_5.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_5.mtx 3688 0
+mpi_100x500_2_6.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_6.mtx 3885 0
+mpi_100x500_2_7.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_7.mtx 3556 0
+mpi_100x500_2_8.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_8.mtx 3364 0
+mpi_100x500_2_9.mtx
+../instances/insts/mpi/type_2/mpi_100x500_2_9.mtx 3908 0
+mpi_100x50_2_1.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_1.mtx 55 0
+mpi_100x50_2_10.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_10.mtx 58 0
+mpi_100x50_2_2.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_2.mtx 50 0
+mpi_100x50_2_3.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_3.mtx 69 0
+mpi_100x50_2_4.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_4.mtx 58 0
+mpi_100x50_2_5.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_5.mtx 51 0
+mpi_100x50_2_6.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_6.mtx 62 0
+mpi_100x50_2_7.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_7.mtx 54 0
+mpi_100x50_2_8.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_8.mtx 51 0
+mpi_100x50_2_9.mtx
+../instances/insts/mpi/type_2/mpi_100x50_2_9.mtx 43 0
+mpi_100x750_2_1.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_1.mtx 9599 0
+mpi_100x750_2_10.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_10.mtx 9697 0
+mpi_100x750_2_2.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_2.mtx 8239 0
+mpi_100x750_2_3.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_3.mtx 9206 0
+mpi_100x750_2_4.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_4.mtx 9701 0
+mpi_100x750_2_5.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_5.mtx 9271 0
+mpi_100x750_2_6.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_6.mtx 10034 0
+mpi_100x750_2_7.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_7.mtx 9612 0
+mpi_100x750_2_8.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_8.mtx 8003 0
+mpi_100x750_2_9.mtx
+../instances/insts/mpi/type_2/mpi_100x750_2_9.mtx 10195 0
+mpi_150x100_2_1.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_1.mtx 93 0
+mpi_150x100_2_10.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_10.mtx 103 0
+mpi_150x100_2_2.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_2.mtx 120 0
+mpi_150x100_2_3.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_3.mtx 129 0
+mpi_150x100_2_4.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_4.mtx 128 0
+mpi_150x100_2_5.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_5.mtx 127 0
+mpi_150x100_2_6.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_6.mtx 136 0
+mpi_150x100_2_7.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_7.mtx 129 0
+mpi_150x100_2_8.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_8.mtx 119 0
+mpi_150x100_2_9.mtx
+../instances/insts/mpi/type_2/mpi_150x100_2_9.mtx 112 0
+mpi_150x250_2_1.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_1.mtx 585 1
+mpi_150x250_2_10.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_10.mtx 666 0
+mpi_150x250_2_2.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_2.mtx 638 0
+mpi_150x250_2_3.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_3.mtx 614 0
+mpi_150x250_2_4.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_4.mtx 567 0
+mpi_150x250_2_5.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_5.mtx 552 0
+mpi_150x250_2_6.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_6.mtx 585 0
+mpi_150x250_2_7.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_7.mtx 525 0
+mpi_150x250_2_8.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_8.mtx 542 0
+mpi_150x250_2_9.mtx
+../instances/insts/mpi/type_2/mpi_150x250_2_9.mtx 644 0
+mpi_150x500_2_1.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_1.mtx 2256 0
+mpi_150x500_2_10.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_10.mtx 2207 1
+mpi_150x500_2_2.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_2.mtx 2249 0
+mpi_150x500_2_3.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_3.mtx 2437 0
+mpi_150x500_2_4.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_4.mtx 2449 1
+mpi_150x500_2_5.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_5.mtx 2659 0
+mpi_150x500_2_6.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_6.mtx 2377 0
+mpi_150x500_2_7.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_7.mtx 2447 0
+mpi_150x500_2_8.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_8.mtx 2479 0
+mpi_150x500_2_9.mtx
+../instances/insts/mpi/type_2/mpi_150x500_2_9.mtx 2273 1
+mpi_150x50_2_1.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_1.mtx 50 0
+mpi_150x50_2_10.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_10.mtx 47 0
+mpi_150x50_2_2.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_2.mtx 57 0
+mpi_150x50_2_3.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_3.mtx 51 0
+mpi_150x50_2_4.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_4.mtx 59 0
+mpi_150x50_2_5.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_5.mtx 49 0
+mpi_150x50_2_6.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_6.mtx 50 0
+mpi_150x50_2_7.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_7.mtx 49 0
+mpi_150x50_2_8.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_8.mtx 48 0
+mpi_150x50_2_9.mtx
+../instances/insts/mpi/type_2/mpi_150x50_2_9.mtx 48 0
+mpi_150x750_2_1.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_1.mtx 5933 0
+mpi_150x750_2_10.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_10.mtx 5801 1
+mpi_150x750_2_2.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_2.mtx 5348 1
+mpi_150x750_2_3.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_3.mtx 5275 0
+mpi_150x750_2_4.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_4.mtx 5588 0
+mpi_150x750_2_5.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_5.mtx 5054 1
+mpi_150x750_2_6.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_6.mtx 5403 0
+mpi_150x750_2_7.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_7.mtx 5459 0
+mpi_150x750_2_8.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_8.mtx 5947 0
+mpi_150x750_2_9.mtx
+../instances/insts/mpi/type_2/mpi_150x750_2_9.mtx 5563 0
+mpi_200x100_2_1.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_1.mtx 113 0
+mpi_200x100_2_10.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_10.mtx 123 0
+mpi_200x100_2_2.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_2.mtx 111 0
+mpi_200x100_2_3.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_3.mtx 102 0
+mpi_200x100_2_4.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_4.mtx 117 0
+mpi_200x100_2_5.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_5.mtx 114 0
+mpi_200x100_2_6.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_6.mtx 107 0
+mpi_200x100_2_7.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_7.mtx 92 0
+mpi_200x100_2_8.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_8.mtx 117 0
+mpi_200x100_2_9.mtx
+../instances/insts/mpi/type_2/mpi_200x100_2_9.mtx 110 0
+mpi_200x250_2_1.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_1.mtx 431 1
+mpi_200x250_2_10.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_10.mtx 441 1
+mpi_200x250_2_2.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_2.mtx 437 0
+mpi_200x250_2_3.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_3.mtx 407 1
+mpi_200x250_2_4.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_4.mtx 420 1
+mpi_200x250_2_5.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_5.mtx 518 1
+mpi_200x250_2_6.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_6.mtx 418 1
+mpi_200x250_2_7.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_7.mtx 433 1
+mpi_200x250_2_8.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_8.mtx 468 1
+mpi_200x250_2_9.mtx
+../instances/insts/mpi/type_2/mpi_200x250_2_9.mtx 463 1
+mpi_200x500_2_1.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_1.mtx 1722 1
+mpi_200x500_2_10.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_10.mtx 1592 1
+mpi_200x500_2_2.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_2.mtx 1840 1
+mpi_200x500_2_3.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_3.mtx 1807 1
+mpi_200x500_2_4.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_4.mtx 1894 1
+mpi_200x500_2_5.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_5.mtx 1696 1
+mpi_200x500_2_6.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_6.mtx 1727 1
+mpi_200x500_2_7.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_7.mtx 1919 1
+mpi_200x500_2_8.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_8.mtx 1723 1
+mpi_200x500_2_9.mtx
+../instances/insts/mpi/type_2/mpi_200x500_2_9.mtx 1916 1
+mpi_200x50_2_1.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_1.mtx 49 0
+mpi_200x50_2_10.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_10.mtx 50 0
+mpi_200x50_2_2.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_2.mtx 51 0
+mpi_200x50_2_3.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_3.mtx 42 0
+mpi_200x50_2_4.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_4.mtx 45 0
+mpi_200x50_2_5.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_5.mtx 49 0
+mpi_200x50_2_6.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_6.mtx 50 0
+mpi_200x50_2_7.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_7.mtx 54 0
+mpi_200x50_2_8.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_8.mtx 47 0
+mpi_200x50_2_9.mtx
+../instances/insts/mpi/type_2/mpi_200x50_2_9.mtx 50 0
+mpi_200x750_2_1.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_1.mtx 4260 1
+mpi_200x750_2_10.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_10.mtx 4245 1
+mpi_200x750_2_2.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_2.mtx 3908 1
+mpi_200x750_2_3.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_3.mtx 3781 1
+mpi_200x750_2_4.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_4.mtx 4389 1
+mpi_200x750_2_5.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_5.mtx 3840 1
+mpi_200x750_2_6.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_6.mtx 3586 1
+mpi_200x750_2_7.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_7.mtx 4520 1
+mpi_200x750_2_8.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_8.mtx 4134 1
+mpi_200x750_2_9.mtx
+../instances/insts/mpi/type_2/mpi_200x750_2_9.mtx 4045 1
+mpi_250x1000_2_1.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_1.mtx 5585 4
+mpi_250x1000_2_10.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_10.mtx 6190 4
+mpi_250x1000_2_2.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_2.mtx 5650 4
+mpi_250x1000_2_3.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_3.mtx 5882 4
+mpi_250x1000_2_4.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_4.mtx 5562 3
+mpi_250x1000_2_5.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_5.mtx 6345 4
+mpi_250x1000_2_6.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_6.mtx 5513 4
+mpi_250x1000_2_7.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_7.mtx 5829 4
+mpi_250x1000_2_8.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_8.mtx 5862 4
+mpi_250x1000_2_9.mtx
+../instances/insts/mpi/type_2/mpi_250x1000_2_9.mtx 6178 4
+mpi_250x2000_2_1.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_1.mtx 24176 3
+mpi_250x2000_2_10.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_10.mtx 26888 3
+mpi_250x2000_2_2.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_2.mtx 26796 3
+mpi_250x2000_2_3.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_3.mtx 26111 3
+mpi_250x2000_2_4.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_4.mtx 25342 3
+mpi_250x2000_2_5.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_5.mtx 27551 3
+mpi_250x2000_2_6.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_6.mtx 25859 3
+mpi_250x2000_2_7.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_7.mtx 25460 3
+mpi_250x2000_2_8.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_8.mtx 26342 4
+mpi_250x2000_2_9.mtx
+../instances/insts/mpi/type_2/mpi_250x2000_2_9.mtx 26663 3
+mpi_250x250_2_1.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_1.mtx 357 1
+mpi_250x250_2_10.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_10.mtx 386 2
+mpi_250x250_2_2.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_2.mtx 424 2
+mpi_250x250_2_3.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_3.mtx 400 2
+mpi_250x250_2_4.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_4.mtx 359 2
+mpi_250x250_2_5.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_5.mtx 442 2
+mpi_250x250_2_6.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_6.mtx 396 2
+mpi_250x250_2_7.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_7.mtx 346 2
+mpi_250x250_2_8.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_8.mtx 375 2
+mpi_250x250_2_9.mtx
+../instances/insts/mpi/type_2/mpi_250x250_2_9.mtx 388 2
+mpi_250x5000_2_1.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_1.mtx 165588 2
+mpi_250x5000_2_10.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_10.mtx 178728 2
+mpi_250x5000_2_2.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_2.mtx 188589 2
+mpi_250x5000_2_3.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_3.mtx 166982 2
+mpi_250x5000_2_4.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_4.mtx 178219 2
+mpi_250x5000_2_5.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_5.mtx 168870 2
+mpi_250x5000_2_6.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_6.mtx 176822 3
+mpi_250x5000_2_7.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_7.mtx 172325 3
+mpi_250x5000_2_8.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_8.mtx 175015 2
+mpi_250x5000_2_9.mtx
+../instances/insts/mpi/type_2/mpi_250x5000_2_9.mtx 176120 3
+mpi_250x500_2_1.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_1.mtx 1400 4
+mpi_250x500_2_10.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_10.mtx 1438 4
+mpi_250x500_2_2.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_2.mtx 1336 4
+mpi_250x500_2_3.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_3.mtx 1439 4
+mpi_250x500_2_4.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_4.mtx 1438 4
+mpi_250x500_2_5.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_5.mtx 1406 4
+mpi_250x500_2_6.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_6.mtx 1477 4
+mpi_250x500_2_7.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_7.mtx 1380 4
+mpi_250x500_2_8.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_8.mtx 1376 4
+mpi_250x500_2_9.mtx
+../instances/insts/mpi/type_2/mpi_250x500_2_9.mtx 1580 4
+mpi_250x750_2_1.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_1.mtx 3290 5
+mpi_250x750_2_10.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_10.mtx 3399 4
+mpi_250x750_2_2.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_2.mtx 3419 5
+mpi_250x750_2_3.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_3.mtx 2854 4
+mpi_250x750_2_4.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_4.mtx 3155 4
+mpi_250x750_2_5.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_5.mtx 3278 4
+mpi_250x750_2_6.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_6.mtx 3399 4
+mpi_250x750_2_7.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_7.mtx 3506 5
+mpi_250x750_2_8.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_8.mtx 3929 4
+mpi_250x750_2_9.mtx
+../instances/insts/mpi/type_2/mpi_250x750_2_9.mtx 3144 4
+mpi_300x1000_2_1.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_1.mtx 5181 6
+mpi_300x1000_2_10.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_10.mtx 4637 6
+mpi_300x1000_2_2.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_2.mtx 4879 6
+mpi_300x1000_2_3.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_3.mtx 4704 6
+mpi_300x1000_2_4.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_4.mtx 4836 4
+mpi_300x1000_2_5.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_5.mtx 4451 6
+mpi_300x1000_2_6.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_6.mtx 4837 6
+mpi_300x1000_2_7.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_7.mtx 4910 7
+mpi_300x1000_2_8.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_8.mtx 4624 7
+mpi_300x1000_2_9.mtx
+../instances/insts/mpi/type_2/mpi_300x1000_2_9.mtx 5356 6
+mpi_300x2000_2_1.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_1.mtx 21086 5
+mpi_300x2000_2_10.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_10.mtx 20712 5
+mpi_300x2000_2_2.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_2.mtx 20437 6
+mpi_300x2000_2_3.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_3.mtx 21269 5
+mpi_300x2000_2_4.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_4.mtx 20742 5
+mpi_300x2000_2_5.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_5.mtx 21469 6
+mpi_300x2000_2_6.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_6.mtx 22160 4
+mpi_300x2000_2_7.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_7.mtx 18217 5
+mpi_300x2000_2_8.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_8.mtx 21199 5
+mpi_300x2000_2_9.mtx
+../instances/insts/mpi/type_2/mpi_300x2000_2_9.mtx 21750 5
+mpi_300x250_2_1.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_1.mtx 271 1
+mpi_300x250_2_10.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_10.mtx 340 2
+mpi_300x250_2_2.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_2.mtx 361 3
+mpi_300x250_2_3.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_3.mtx 375 2
+mpi_300x250_2_4.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_4.mtx 334 2
+mpi_300x250_2_5.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_5.mtx 354 2
+mpi_300x250_2_6.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_6.mtx 316 2
+mpi_300x250_2_7.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_7.mtx 341 2
+mpi_300x250_2_8.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_8.mtx 334 2
+mpi_300x250_2_9.mtx
+../instances/insts/mpi/type_2/mpi_300x250_2_9.mtx 328 2
+mpi_300x5000_2_1.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_1.mtx 142313 3
+mpi_300x5000_2_10.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_10.mtx 136730 4
+mpi_300x5000_2_2.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_2.mtx 155484 4
+mpi_300x5000_2_3.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_3.mtx 147720 3
+mpi_300x5000_2_4.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_4.mtx 138711 4
+mpi_300x5000_2_5.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_5.mtx 134283 5
+mpi_300x5000_2_6.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_6.mtx 143243 3
+mpi_300x5000_2_7.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_7.mtx 147949 3
+mpi_300x5000_2_8.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_8.mtx 136234 4
+mpi_300x5000_2_9.mtx
+../instances/insts/mpi/type_2/mpi_300x5000_2_9.mtx 151383 4
+mpi_300x500_2_1.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_1.mtx 1128 5
+mpi_300x500_2_10.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_10.mtx 1427 5
+mpi_300x500_2_2.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_2.mtx 1100 6
+mpi_300x500_2_3.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_3.mtx 1120 5
+mpi_300x500_2_4.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_4.mtx 1154 5
+mpi_300x500_2_5.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_5.mtx 1221 5
+mpi_300x500_2_6.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_6.mtx 1223 6
+mpi_300x500_2_7.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_7.mtx 1244 4
+mpi_300x500_2_8.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_8.mtx 1194 5
+mpi_300x500_2_9.mtx
+../instances/insts/mpi/type_2/mpi_300x500_2_9.mtx 1203 5
+mpi_300x750_2_1.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_1.mtx 2671 5
+mpi_300x750_2_10.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_10.mtx 2815 6
+mpi_300x750_2_2.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_2.mtx 3157 7
+mpi_300x750_2_3.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_3.mtx 2824 5
+mpi_300x750_2_4.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_4.mtx 2796 6
+mpi_300x750_2_5.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_5.mtx 2439 5
+mpi_300x750_2_6.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_6.mtx 2462 6
+mpi_300x750_2_7.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_7.mtx 2657 6
+mpi_300x750_2_8.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_8.mtx 2515 6
+mpi_300x750_2_9.mtx
+../instances/insts/mpi/type_2/mpi_300x750_2_9.mtx 2852 6
+mpi_50x100_2_1.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_1.mtx 322 0
+mpi_50x100_2_10.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_10.mtx 255 0
+mpi_50x100_2_2.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_2.mtx 225 0
+mpi_50x100_2_3.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_3.mtx 204 0
+mpi_50x100_2_4.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_4.mtx 362 0
+mpi_50x100_2_5.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_5.mtx 279 0
+mpi_50x100_2_6.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_6.mtx 274 0
+mpi_50x100_2_7.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_7.mtx 245 0
+mpi_50x100_2_8.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_8.mtx 289 0
+mpi_50x100_2_9.mtx
+../instances/insts/mpi/type_2/mpi_50x100_2_9.mtx 284 0
+mpi_50x250_2_1.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_1.mtx 1953 0
+mpi_50x250_2_10.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_10.mtx 1617 0
+mpi_50x250_2_2.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_2.mtx 1986 0
+mpi_50x250_2_3.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_3.mtx 1990 0
+mpi_50x250_2_4.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_4.mtx 1616 0
+mpi_50x250_2_5.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_5.mtx 1797 0
+mpi_50x250_2_6.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_6.mtx 2084 0
+mpi_50x250_2_7.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_7.mtx 1828 0
+mpi_50x250_2_8.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_8.mtx 2093 0
+mpi_50x250_2_9.mtx
+../instances/insts/mpi/type_2/mpi_50x250_2_9.mtx 1998 0
+mpi_50x500_2_1.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_1.mtx 8069 0
+mpi_50x500_2_10.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_10.mtx 8122 0
+mpi_50x500_2_2.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_2.mtx 7303 0
+mpi_50x500_2_3.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_3.mtx 10319 0
+mpi_50x500_2_4.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_4.mtx 9841 0
+mpi_50x500_2_5.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_5.mtx 8085 0
+mpi_50x500_2_6.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_6.mtx 7796 0
+mpi_50x500_2_7.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_7.mtx 8151 0
+mpi_50x500_2_8.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_8.mtx 7450 0
+mpi_50x500_2_9.mtx
+../instances/insts/mpi/type_2/mpi_50x500_2_9.mtx 8203 0
+mpi_50x50_2_1.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_1.mtx 64 0
+mpi_50x50_2_10.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_10.mtx 73 0
+mpi_50x50_2_2.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_2.mtx 65 0
+mpi_50x50_2_3.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_3.mtx 81 0
+mpi_50x50_2_4.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_4.mtx 70 0
+mpi_50x50_2_5.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_5.mtx 66 0
+mpi_50x50_2_6.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_6.mtx 77 0
+mpi_50x50_2_7.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_7.mtx 74 0
+mpi_50x50_2_8.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_8.mtx 62 0
+mpi_50x50_2_9.mtx
+../instances/insts/mpi/type_2/mpi_50x50_2_9.mtx 83 0
+mpi_50x750_2_1.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_1.mtx 15836 0
+mpi_50x750_2_10.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_10.mtx 20335 0
+mpi_50x750_2_2.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_2.mtx 21537 0
+mpi_50x750_2_3.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_3.mtx 17440 0
+mpi_50x750_2_4.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_4.mtx 22325 0
+mpi_50x750_2_5.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_5.mtx 16253 0
+mpi_50x750_2_6.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_6.mtx 18930 0
+mpi_50x750_2_7.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_7.mtx 19521 0
+mpi_50x750_2_8.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_8.mtx 23279 0
+mpi_50x750_2_9.mtx
+../instances/insts/mpi/type_2/mpi_50x750_2_9.mtx 21062 0
+lpi_1000x10000_2.mtx
+../instances/insts/lpi/lpi_1000x10000_2.mtx 167199 89
+lpi_1000x1000_2.mtx
+../instances/insts/lpi/lpi_1000x1000_2.mtx 1501 65
+lpi_1000x15000_2.mtx
+../instances/insts/lpi/lpi_1000x15000_2.mtx 378161 83
+lpi_1000x20000_2.mtx
+../instances/insts/lpi/lpi_1000x20000_2.mtx 732493 84
+lpi_1000x5000_2.mtx
+../instances/insts/lpi/lpi_1000x5000_2.mtx 37896 129
+lpi_500x10000_2.mtx
+../instances/insts/lpi/lpi_500x10000_2.mtx 361614 11
+lpi_500x1000_2.mtx
+../instances/insts/lpi/lpi_500x1000_2.mtx 2633 23
+lpi_500x2000_2.mtx
+../instances/insts/lpi/lpi_500x2000_2.mtx 11350 20
+lpi_500x5000_2.mtx
+../instances/insts/lpi/lpi_500x5000_2.mtx 84321 18
+lpi_500x500_2.mtx
+../instances/insts/lpi/lpi_500x500_2.mtx 783 14
+lpi_800x10000_2.mtx
+../instances/insts/lpi/lpi_800x10000_2.mtx 203428 50
+lpi_800x1000_2.mtx
+../instances/insts/lpi/lpi_800x1000_2.mtx 1838 48
+lpi_800x2000_2.mtx
+../instances/insts/lpi/lpi_800x2000_2.mtx 6994 66
+lpi_800x5000_2.mtx
+../instances/insts/lpi/lpi_800x5000_2.mtx 48384 58
+lpi_800x500_2.mtx
+../instances/insts/lpi/lpi_800x500_2.mtx 656 22
