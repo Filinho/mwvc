@@ -56,7 +56,6 @@ class Solver{
         
       // pick random edge
     int nEdges = instance.nEdges;
-    int count = 0;
     vector<set<int>> auxAdjList = instance.adjList;
     while(nEdges > 0){
       unsigned v1 = rng(instance.nVertex);
@@ -243,13 +242,16 @@ class Solver{
       neighboorhood(solution, candidates, generator);
       State min = candidates[0];
       for(unsigned i = 1 ; i < candidates.size(); ++i){
-        if(candidates[i].cost < min.cost) min = candidates[i];
+        if (candidates[i].cost < min.cost) {
+          min = candidates[i];
+        }
       }
 
       if (min.cost >= solution.cost) {
         solution.timeSpent = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count();
         return true;
       }
+      //cout << solution.cost << endl;
       solution = min;
     }
     solution.timeSpent = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count();
@@ -296,9 +298,17 @@ class Solver{
     return false;
   }
 
-	bool VNS(State & solution, int time, pcg32& rng){
+	bool VNS(State & solution, int time, pcg32& rng, unsigned localSearchType){
     int op = 1;
     int loopLock= 0;
+    bool (Solver::*genericLocalSearch)(unsigned, State&, pcg32&);
+
+    if (localSearchType == 1) {
+      genericLocalSearch = &Solver::localSearchFirstImprv;
+    }
+    else {
+      genericLocalSearch = & Solver::localSearch;
+    }
 
     chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
 
@@ -315,7 +325,7 @@ class Solver{
         int i =rng(starts.size());
         State current = starts[i];
 
-        localSearch(op, current,rng);
+        (this->*genericLocalSearch)(op, current, rng);
 
         if(current.cost < solution.cost){
           //loopLock = 0;
@@ -356,7 +366,7 @@ class Solver{
 
         j = generator(instance.nVertex);
 
-        if(solution.selected[j] == 1 && i != j){
+        if(solution.selected[j] == 1){
 
           swap2VertexNeighboor(solution,aux,i,j);
           neighboorhood.push_back(aux);
