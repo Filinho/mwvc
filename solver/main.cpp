@@ -117,7 +117,7 @@ int main(int argc, char* argv[]) {
 			solver.VNS(s, maxMilli, rng, localSearchType);
 			break;
         case 3:
-            solver.geneticAlgorithm(s, 20,5, 0.1, 60,rng);
+            solver.geneticAlgorithm(s, 500,1000, 0.05, 60000,rng);
 	}
 
 	if (!s.verify()) {

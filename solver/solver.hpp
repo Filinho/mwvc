@@ -465,14 +465,20 @@ class Solver{
       
       return temp;
     }
-
+	void addAdjacent(int i, State & solution){
+        for(int x : instance.adjList[i]){
+            solution.selected[x] = true;
+        }
+	}
     void geneticAlgorithm(State &solution, int populationSize, int generations, double mutationRate, int timeLimit,pcg32 & generator){
+
       vector<State> population(populationSize);
+		int i = 0;
 
-      for (int i = 0; i < populationSize; i++) {
-      	 randomEdge(population[i],generator);
+      for(i=0; i < populationSize -1; i++){
+        randomEdge(population[i],generator);
       }
-
+     ratioEdge(population[i]);
       // Função auxiliar para selecionar o melhor indivíduo
     auto selectBest = [](const vector<State> &population) -> State {
         State best = population[0];
@@ -492,35 +498,50 @@ class Solver{
         // 3. Seleção dos pais por torneio
         vector<State> newPopulation;
         for (int i = 0; i < populationSize; i++) {
-            int a = rand() % populationSize;
-            int b = rand() % populationSize;
+            int a = generator(populationSize) ;
+            int b = generator(populationSize)  ;
             newPopulation.push_back(population[a].cost < population[b].cost ? population[a] : population[b]);
         }
 
         // 4. Cruzamento (1 ponto de cruzamento)
         for (int i = 0; i < populationSize; i += 2) {
             if (i + 1 < populationSize) {
-                int crossoverPoint = rand() % instance.nVertex;
+                int crossoverPoint = generator(instance.nVertex);
                 for (int j = crossoverPoint; j < instance.nVertex; j++) {
                     swap(newPopulation[i].selected[j], newPopulation[i + 1].selected[j]);
+                    if(newPopulation[i].selected[j] == 0 &&  newPopulation[i + 1].selected[j] == 1){
+                      addAdjacent(j,newPopulation[i]);
+
+                    }
+                    else if(newPopulation[i].selected[j] == 1 && newPopulation[i + 1].selected[j] == 0){
+                      addAdjacent(j,newPopulation[i+1]);
+                    }
                 }
             }
         }
 
         // 5. Mutação (flip de bits aleatórios)
         for (int i = 0; i < populationSize; i++) {
-            for (int j = 0; j < instance.nVertex; j++) {
                 if ((rand() / double(RAND_MAX)) < mutationRate) {
-                    newPopulation[i].selected[j] = !newPopulation[i].selected[j];
+                    int x = rand() % instance.nVertex;
+                    if(newPopulation[i].selected[x] == 1){
+                      newPopulation[i].selected[x] = 0;
+                      addAdjacent(x,newPopulation[i]);
+                    }
+                    else newPopulation[i].selected[x] = 1;
                 }
-            }
-        }
 
+        }
+		for(int i = 0; i < populationSize; i++){
+            newPopulation[i].calcCost();
+
+		}
         // Atualizar a população
         population = newPopulation;
 
         // Atualizar a melhor solução encontrada
         State bestInGeneration = selectBest(population);
+        cout << bestInGeneration.cost << endl;
         if (bestInGeneration.cost < solution.cost) {
             solution = bestInGeneration;
         }
