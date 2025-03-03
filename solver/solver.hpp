@@ -466,5 +466,72 @@ class Solver{
       return temp;
     }
 
+    void geneticAlgorithm(State &solution, int populationSize, int generations, double mutationRate, int timeLimit,pcg32 & generator){
+      vector<State> population(populationSize);
+
+      for (int i = 0; i < populationSize; i++) {
+      	 randomEdge(population[i],generator);
+      }
+
+      // Função auxiliar para selecionar o melhor indivíduo
+    auto selectBest = [](const vector<State> &population) -> State {
+        State best = population[0];
+        for (const auto &ind : population) {
+            if (ind.cost < best.cost) {
+                best = ind;
+            }
+        }
+        return best;
+    };
+	    chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
+    // 2. Evolução por várias gerações
+    for (int generation = 0; generation < generations; generation++) {
+
+        // Avaliação da aptidão (custo já calculado nas estruturas "State")
+
+        // 3. Seleção dos pais por torneio
+        vector<State> newPopulation;
+        for (int i = 0; i < populationSize; i++) {
+            int a = rand() % populationSize;
+            int b = rand() % populationSize;
+            newPopulation.push_back(population[a].cost < population[b].cost ? population[a] : population[b]);
+        }
+
+        // 4. Cruzamento (1 ponto de cruzamento)
+        for (int i = 0; i < populationSize; i += 2) {
+            if (i + 1 < populationSize) {
+                int crossoverPoint = rand() % instance.nVertex;
+                for (int j = crossoverPoint; j < instance.nVertex; j++) {
+                    swap(newPopulation[i].selected[j], newPopulation[i + 1].selected[j]);
+                }
+            }
+        }
+
+        // 5. Mutação (flip de bits aleatórios)
+        for (int i = 0; i < populationSize; i++) {
+            for (int j = 0; j < instance.nVertex; j++) {
+                if ((rand() / double(RAND_MAX)) < mutationRate) {
+                    newPopulation[i].selected[j] = !newPopulation[i].selected[j];
+                }
+            }
+        }
+
+        // Atualizar a população
+        population = newPopulation;
+
+        // Atualizar a melhor solução encontrada
+        State bestInGeneration = selectBest(population);
+        if (bestInGeneration.cost < solution.cost) {
+            solution = bestInGeneration;
+        }
+
+        // Verificar tempo limite
+        if (chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() >= timeLimit) {
+            break;
+        }
+    }
+
+    solution.timeSpent = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count();
+    }
 };
 

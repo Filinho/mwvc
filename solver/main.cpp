@@ -44,6 +44,9 @@ int main(int argc, char* argv[]) {
 	else if (auxStr.compare("VNS") == 0) {
 		searchType = 2;
 	}
+    else if(auxStr.compare("GN") == 0) {
+          searchType = 3;
+    }
 	else {
 		cout << "invalid searchType option ";
 		cout << desc << endl;
@@ -113,6 +116,8 @@ int main(int argc, char* argv[]) {
 		case 2:
 			solver.VNS(s, maxMilli, rng, localSearchType);
 			break;
+        case 3:
+            solver.geneticAlgorithm(s, 20,5, 0.1, 60,rng);
 	}
 
 	if (!s.verify()) {
