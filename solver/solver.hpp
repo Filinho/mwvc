@@ -337,6 +337,7 @@ class Solver{
         }
 	    }
     }
+    solution.timeSpent = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count();
 
     return true;
    }
