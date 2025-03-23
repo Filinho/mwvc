@@ -2,3 +2,5 @@
 build
 release
 debug
+.idea
+.vscode
