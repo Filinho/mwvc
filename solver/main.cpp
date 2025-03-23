@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
 	desc.add_options()
 		("help", "show help")
 		("instPath", "instance")
-		("searchType", po::value<string>()->default_value("SA"), "search type: SA - Simulated Annealing, VNS - variable neighborhood search, LS - local search")
+		("searchType", po::value<string>()->default_value("VNS"), "search type: SA - Simulated Annealing, VNS - variable neighborhood search, LS - local search, GA - Genetic algorithm")
 		("neighborhood", po::value<string>()->default_value("RM1"), "neighborhood that will be used: RM1 - Remove 1 vertex, RM2 - Remove 2 vertex")
 		("localSearchType", po::value<string>()->default_value("FI"), "local search type: FI - First improvement, BI - Best improvement")
 		//("initialSolution", po::value<string>()->default_value("randomEdge"), "used initial solution: randomEdge, ratioEdge")
@@ -18,7 +18,11 @@ int main(int argc, char* argv[]) {
 		("seed", po::value<unsigned>()->default_value(321), "random number generator seed")
 		//("tenure", po::value<unsigned>()->default_value(8), "tabu tenure")
 		("coolingFactor", po::value<double>()->default_value(0.997), "cooling factor of temperature for SA")
-		("initialTemp", po::value<unsigned>()->default_value(300.0), "initial temperature for SA")
+		("initialTemp", po::value<double>()->default_value(300.0), "initial temperature for SA")
+		("populationSize", po::value<unsigned>()->default_value(1000), "population size for GA")
+		("generations", po::value<unsigned>()->default_value(500000), "number of generations of GA")
+		("mutationRate", po::value<double>()->default_value(0.14), "mutation rate for GA, double between 0 and 1")
+		("elitismFactor", po::value<double>()->default_value(0.06), "elitism factor for GA, how much of the best solutions will be passed through generations")
 		;
 	po::positional_options_description pod;
 	pod.add("instPath", 1);
@@ -44,9 +48,9 @@ int main(int argc, char* argv[]) {
 	else if (auxStr.compare("VNS") == 0) {
 		searchType = 2;
 	}
-    else if(auxStr.compare("GN") == 0) {
-          searchType = 3;
-    }
+  else if(auxStr.compare("GA") == 0) {
+    searchType = 3;
+  }
 	else {
 		cout << "invalid searchType option ";
 		cout << desc << endl;
@@ -85,8 +89,12 @@ int main(int argc, char* argv[]) {
 
 	const unsigned maxMilli = vm["maxMilli"].as<unsigned>();
 	const unsigned seed = vm["seed"].as<unsigned>();
-	const unsigned initialTemp = vm["initialTemp"].as<unsigned>();
+	const double initialTemp = vm["initialTemp"].as<double>();
 	const double coolingFactor = vm["coolingFactor"].as<double>();
+	const unsigned populationSize = vm["populationSize"].as<unsigned>();
+	const unsigned generations = vm["generations"].as<unsigned>();
+	const double mutationRate = vm["mutationRate"].as<double>();
+	const double elitismFactor = vm["elitismFactor"].as<double>();
 
 	pcg32 rng(seed);
 
@@ -116,8 +124,9 @@ int main(int argc, char* argv[]) {
 		case 2:
 			solver.VNS(s, maxMilli, rng, localSearchType);
 			break;
-        case 3:
-            solver.geneticAlgorithm(s, 500,1000, 0.05, 60000,rng);
+    case 3:
+      solver.geneticAlgorithm(s, populationSize, generations, mutationRate, elitismFactor, maxMilli, rng);
+			break;
 	}
 
 	if (!s.verify()) {
