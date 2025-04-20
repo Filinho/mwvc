@@ -35,7 +35,7 @@ user~$: make
 ./main [INSTANCE_PATH] [Program Options]
 ```
 
-## Program Options
+### Program Options
 
 ```bashsession
 ./main --help
