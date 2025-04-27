@@ -8,6 +8,8 @@
 #include <deque>
 #include <vector>
 #include <cmath>
+#include <set>
+#include <unordered_set>
 
 using namespace chrono;
 
@@ -20,7 +22,7 @@ class Solver{
 
     chrono::high_resolution_clock::time_point tpStart = chrono::high_resolution_clock::now();
 
-    vector<set<int>> auxAdjList = instance.adjList;
+    vector<set<unsigned>> auxAdjList = instance.adjList;
 
     vector<pair<unsigned, double>> vertexRatioOrder;
 
@@ -51,6 +53,8 @@ class Solver{
       auxI++;
     }
 
+    shrink_solution(solution);
+
     solution.timeSpent = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count();
 
     solution.calcCost();
@@ -58,10 +62,104 @@ class Solver{
     return solution.cost;
   }
 
+  void shrink_solution(State& solution) {
+    vector<unsigned> loss(instance.nVertex, 0);
+
+    for (unsigned i = 0; i < instance.nEdges; ++i) {
+      if (solution.selected[instance.edgeVertexs[i].first]) {
+        if (!solution.selected[instance.edgeVertexs[i].second]) {
+          ++loss[instance.edgeVertexs[i].first];
+        }
+      }
+      else {
+        ++loss[instance.edgeVertexs[i].second];
+      }
+    }
+
+    for (unsigned i = 0; i < instance.nVertex; ++i) {
+      if (loss[i] == 0) {
+        solution.selected[i] = false;
+        for (auto adjVertex : instance.adjList[i]) {
+          ++loss[adjVertex];
+        }
+      }
+    }
+  }
+
+  void randomRatioEdge(State& solution, pcg32& rng) {
+
+    unordered_set<unsigned> uncoveredEdges;
+    vector<unsigned> uncoveredEdgesAux;
+
+    for (auto e : instance.edgeVertexs) {
+      uncoveredEdges.insert(e.first);
+      uncoveredEdgesAux.push_back(e.first);
+    }
+
+    unsigned targetEdge; //edge to be covered
+    unsigned targetVertex, auxVertex;
+    while (uncoveredEdges.size() > 0) {
+      targetEdge = rng(uncoveredEdges.size());
+
+      if (uncoveredEdges.find(uncoveredEdgesAux[targetEdge]) == uncoveredEdges.end()) {
+        uncoveredEdgesAux[targetEdge] = uncoveredEdgesAux[uncoveredEdgesAux.size() - 1];
+        uncoveredEdgesAux.pop_back();
+        continue;
+      }
+
+      targetEdge = uncoveredEdgesAux[targetEdge];
+
+      targetVertex = instance.edgeVertexs[targetEdge].first;
+      auxVertex = instance.edgeVertexs[targetEdge].second;
+
+      //select best vertex
+      if (instance.weight[targetVertex] / instance.adjList[targetVertex].size() > instance.weight[auxVertex] / instance.adjList[auxVertex].size()) {
+        targetVertex = auxVertex;
+      }
+
+      solution.selected[targetVertex] = true;
+
+      for (auto adjVertex : instance.adjList[targetVertex]) {
+        if (targetVertex < adjVertex) {
+          targetEdge = instance.vertexEdge[pair<unsigned, unsigned>(targetVertex, adjVertex)];
+        }
+        else {
+          targetEdge = instance.vertexEdge[pair<unsigned, unsigned>(adjVertex, targetVertex)];
+        }
+
+        /*if (targetEdge < uncoveredEdgesAux.size() && uncoveredEdgesAux[targetEdge] == targetEdge) {
+          uncoveredEdgesAux[targetEdge] = uncoveredEdgesAux[uncoveredEdgesAux.size() - 1];
+          uncoveredEdgesAux.pop_back();
+        }*/
+        uncoveredEdges.erase(targetEdge);
+      }
+    }
+
+    solution.calcCost();
+  }
+
+  void constructWVC(State& solution, pcg32& rng) {
+    
+
+    randomRatioEdge(solution, rng);
+
+    for (int i = 0; i < 0; ++i) {
+      State newSol;
+      randomRatioEdge(newSol, rng);
+      if (solution.calcCost() > newSol.calcCost()) {
+        solution = newSol;
+      }
+    }
+    
+    shrink_solution(solution);
+
+  }
+
   bool VNS(State& solution, int time, pcg32& rng, unsigned localSearchType) {
     int op = 1;
     int loopLock = 0;
     bool (Solver:: * genericLocalSearch)(unsigned, State&, pcg32&);
+    unsigned iters = 0;
 
     if (localSearchType == 1) {
       genericLocalSearch = &Solver::localSearchFirstImprv;
@@ -76,6 +174,7 @@ class Solver{
       loopLock = 0;
 
       while (loopLock < 2 && chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count() < time) {
+        iters++;
 
         vector<State> starts;
 
@@ -86,6 +185,8 @@ class Solver{
         State current = starts[i];
 
         (this->*genericLocalSearch)(op, current, rng);
+
+        shrink_solution(current);
 
         if (current.cost < solution.cost) {
           //loopLock = 0;
@@ -98,6 +199,7 @@ class Solver{
       }
     }
     solution.timeSpent = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - tpStart).count();
+    cout << iters << endl;
 
     return true;
   }
@@ -274,7 +376,7 @@ class Solver{
         
       // pick random edge
     int nEdges = instance.nEdges;
-    vector<set<int>> auxAdjList = instance.adjList;
+    vector<set<unsigned>> auxAdjList = instance.adjList;
     while(nEdges > 0){
       unsigned v1 = rng(instance.nVertex);
       unsigned v2;

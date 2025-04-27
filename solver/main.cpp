@@ -103,10 +103,11 @@ int main(int argc, char* argv[]) {
 	State s;
 	
 	Solver solver;
-	solver.ratioEdge(s);
+	solver.constructWVC(s, rng);
 
 	if (!s.verify()) {
 	 	cout << "ratioInvalid" << endl;
+		return 0;
 	}
 
 	switch (searchType) {
